@@ -86,10 +86,6 @@ Unjail Validator
 anoned tx slashing unjail --from wallet --chain-id anone-testnet-1 --fees 2000uan1 --gas auto -y
 ```
 
-Unjail Validator
-
-```bash
-
 Jail Reason
 
 ```bash
