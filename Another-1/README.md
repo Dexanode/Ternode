@@ -65,7 +65,7 @@ anoned tx staking create-validator \
 --gas=auto \
 -y
 ```
-Create New Validator
+Edit Existing Validator
 
 ```bash
 anoned tx staking edit-validator \
