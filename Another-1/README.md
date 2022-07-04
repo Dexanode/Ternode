@@ -89,7 +89,7 @@ anoned tx slashing unjail --from wallet --chain-id anone-testnet-1 --fees 2000ua
 Jail Reason
 
 ```bash
-anoned tx slashing unjail --from wallet --chain-id anone-testnet-1 --fees 2000uan1 --gas auto -y
+anoned query slashing signing-info $(anoned tendermint show-validator)
 ```
 
 Withdraw Commission And Rewards
