@@ -1,7 +1,7 @@
 
 ## Subsquery Quest ***(Indexing)***
 
-**First Open Port 8000**
+**First Open Port 8000 on your VPS**
 
 Update and Upgrade
 ```
@@ -64,7 +64,7 @@ Connect Metamask and RPC First
 
 Claim Faucet in [Discord](https://discord.gg/WW9BsDVS)
 ```
-!drip address_kalian
+!drip your_address
 ```
 Connect To Metamask and Approve in Metamask
 
@@ -96,9 +96,9 @@ Klik Project yang sudah jadi -> Click Start Indexing
 
 -------------------------------------------------------
 
-***Jaringan Pengindeksan:*** wss://polkadot.api.onfinality.io/public-ws
+***Network Indexing:*** wss://polkadot.api.onfinality.io/public-ws
 
-***Kamus Jaringan:*** https://api.subquery.network/sq/subquery/polkadot-dictionary
+***Dictionary Network:*** https://api.subquery.network/sq/subquery/polkadot-dictionary
 
 -------------------------------------------------------
 Confirm -> Tunggu 1 Menit
