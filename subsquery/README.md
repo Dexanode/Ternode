@@ -111,7 +111,20 @@ Send Trascation -> Approve Metamask
 
 Stop Indexing Project -> Restart Indexing
 
-Klik Announce Ready -> Approve Metamask
+## Menu Project
+-> Klik Add Project
+
+-> Klik SubsQuery Explorer
+
+-> Pilih Polkadot 
+
+-> Copy Deployment ID
+
+-> Masukan di Deployment ID
+
+-> Klik Announce Ready 
+
+-> Approve Metamask
 
 Done
 -------------------------------------------------------
