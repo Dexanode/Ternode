@@ -20,11 +20,10 @@ curl -SL https://github.com/docker/compose/releases/download/v2.5.0/docker-compo
 sudo chmod +x /usr/local/bin/docker-compose
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 ```
-Buat Folder & Install
+Create Folder and Install
 
 ```
-mkdir testnet
-cd testnet
+mkdir subquery-indexer && cd subquery-indexer
 curl https://raw.githubusercontent.com/subquery/indexer-services/main/docker-compose.yml -o docker-compose.yml
 ```
 Open `docker-compose.yaml`
