@@ -1,7 +1,7 @@
 
 ## Subsquery Quest ***(Indexing)***
 
-**First Open Port 8000 on your VPS**
+**First Open Port 8000, 80 and 443 on your VPS**
 
 Update and Upgrade
 ```
