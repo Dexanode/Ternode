@@ -24,10 +24,12 @@ Open `docker-compose.yaml`
 ```
 nano docker-compose.yml
 ```
-Cari pos_8_Tgres ada 2 : Ganti Dengan Password Kalian
-```
-CTRL + X + Y + ENTER
-```
+### Cari pos_8_Tgres ada 2 : Ganti Dengan Password Kalian
+
+![Screenshot 2022-07-05 134721](https://user-images.githubusercontent.com/65535542/177267691-e4262b57-3855-44e4-aeed-0613127364a7.png))
+
+Done and `CTRL + X and Y and Enter
+
 Starting Index
 ```
 docker-compose up -d
