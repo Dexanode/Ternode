@@ -1,6 +1,8 @@
 
 ## Subsquery Quest ***(Indexing)***
 
+**First Open Port 8000**
+
 Update and Upgrade
 ```
 sudo apt-get upgdate && sudo apt-get upgrade -y
