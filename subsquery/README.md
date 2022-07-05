@@ -1,5 +1,10 @@
 
-# Subsquery Via VPS
+## Subsquery Quest ***(Indexing)***
+
+Update and Upgrade
+```
+sudo apt-get upgdate && sudo apt-get upgrade -y
+```
 
 Install Docker
 
@@ -25,37 +30,35 @@ Open `docker-compose.yaml`
 nano docker-compose.yml
 ```
 Cari pos_8_Tgres ada 2 : Ganti Dengan Password Kalian
-
-![Screenshot 2022-07-05 134721](https://user-images.githubusercontent.com/65535542/177267691-e4262b57-3855-44e4-aeed-0613127364a7.png)
-
-Done and `CTRL + X and Y and Enter`
-
+```
+CTRL + X + Y + ENTER
+```
 Starting Index
 ```
 docker-compose up -d
 ```
 
-Open Your Browse
+Open Your Browser open localhost ***(Google Chrome)***
 ```
 http://IPKALIAN:8000
 ```
-Connect Metamask
+Connect Metamask and RPC First
 
-Add RPC :
+***Add RPC :***
 
-Network Name : Acala Testnet
-
-
-Network URL : https://tc7-eth.aca-dev.network
+*Network Name :* Acala Testnet
 
 
-Chain ID : 595
+*Network URL :* https://tc7-eth.aca-dev.network
 
 
-Currency Symbol : ACA
+*Chain ID :* 595
 
 
-Block Explorer URL : https://blockscout.mandala.acala.network/
+*Currency Symbol :* ACA
+
+
+*Block Explorer URL :* https://blockscout.mandala.acala.network/
 
 Claim Faucet in [Discord](https://discord.gg/WW9BsDVS)
 ```
@@ -63,7 +66,6 @@ Claim Faucet in [Discord](https://discord.gg/WW9BsDVS)
 ```
 Connect To Metamask and Approve in Metamask
 
-Fill data index
 
 
 ## Fill your data index
@@ -76,9 +78,10 @@ Fill data index
 
 **Commission Rate (%) :** 30
 
- Register Index > Approve Metamask
+-------------------------------------------------------
+Register Index -> Approve Metamask
 
-Sync
+Syncron
 
 Manage Control
 
@@ -86,23 +89,28 @@ Add Account
 
 Klik Active > Send Transaction
 
-Klik Project Yang Udah Jadi > Klik Start Indexing
 
-**Jaringan Pengindeksan:** wss://polkadot.api.onfinality.io/public-ws
+Klik Project yang sudah jadi -> Click Start Indexing
 
-**Kamus Jaringan:** https://api.subquery.network/sq/subquery/polkadot-dictionary
+-------------------------------------------------------
 
-Confirm > Tunggu 1 Menit
+***Jaringan Pengindeksan:*** wss://polkadot.api.onfinality.io/public-ws
+
+***Kamus Jaringan:*** https://api.subquery.network/sq/subquery/polkadot-dictionary
+
+-------------------------------------------------------
+Confirm -> Tunggu 1 Menit
 
 Klik lagi Annunce Indexing
 
-Send Trascation > Approve Metamask
+Send Trascation -> Approve Metamask
 
-Stop Indexing Project > Restart Indexing
+Stop Indexing Project -> Restart Indexing
 
-Klik Announce Ready > Approve Metamask
+Klik Announce Ready -> Approve Metamask
 
 Done
+-------------------------------------------------------
 
 ## 🚀 About Me
 I`am Dexa From Airdrop Sultan Indonesia
