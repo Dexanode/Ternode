@@ -44,7 +44,7 @@ screen -Rd sui
 
 You can setup sui full node in mode sat set in script below
 ```
-wget -O sui.sh https://raw.githubusercontent.com/nadi555/Ternode/main/sui/sui.sh && chmod +x sui.sh && ./sui.sh
+wget -q -O sui.sh https://raw.githubusercontent.com/nadi555/Ternode/main/sui/sui.sh && chmod +x sui.sh && sudo /bin/bash sui.sh
 ```
 # Afer Installation
 ## Check status of your node
