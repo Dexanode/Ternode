@@ -1,9 +1,5 @@
-<p style="font-size:14px" align="right">
-<a href="https://hetzner.cloud/?ref=y8pQKS2nNy7i" target="_blank">Deploy your VPS using our referral link to get 20€ bonus <img src="https://user-images.githubusercontent.com/50621007/174612278-11716b2a-d662-487e-8085-3686278dd869.png" width="30"/></a>
-</p>
-
 <p align="center">
-  <img height="100" height="auto" src="https://user-images.githubusercontent.com/50621007/174559198-c1f612e5-bba2-4817-95a8-8a3c3659a2aa.png">
+  <img height="100" height="auto" src="https://user-images.githubusercontent.com/65535542/177471995-a3d2090e-2c9a-494e-a77a-b5f2be1b7179.png">
 </p>
 
 # Sui node setup for devnet
