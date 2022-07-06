@@ -9,6 +9,7 @@
 # Sui node setup for devnet (not incentived for devnet)
 
 Docs Official :https://github.com/MystenLabs/sui/blob/main/doc/src/build/fullnode.md
+
 Check you node health: https://node.sui.zvalid.com/
 
 ## Minimum hardware requirements
