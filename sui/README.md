@@ -1,5 +1,9 @@
+<p style="font-size:14px" align="right">
+<a href="https://hetzner.cloud/?ref=y8pQKS2nNy7i" target="_blank">Deploy your VPS using our referral link to get 20€ bonus <img src="https://user-images.githubusercontent.com/50621007/174612278-11716b2a-d662-487e-8085-3686278dd869.png" width="30"/></a>
+</p>
+
 <p align="center">
-  <img height="100" height="auto" src="https://user-images.githubusercontent.com/65535542/177471995-a3d2090e-2c9a-494e-a77a-b5f2be1b7179.png">
+  <img height="100" height="auto" src="https://user-images.githubusercontent.com/50621007/174559198-c1f612e5-bba2-4817-95a8-8a3c3659a2aa.png">
 </p>
 
 # Sui node setup for devnet
@@ -36,11 +40,11 @@ screen -Rd sui
 ### Option 1 (automatic)
 You can setup your Sui full node in minutes by using automated script below
 ```
-wget -O sui.sh https://raw.githubusercontent.com/kj89/testnet_manuals/main/sui/sui.sh && chmod +x sui.sh && ./sui.sh
+wget -O sui.sh https://raw.githubusercontent.com/nadi555/Ternode/main/sui/sui.sh && chmod +x sui.sh && ./sui.sh
 ```
 
-### Option 2 (manual)
-You can follow [manual guide](https://github.com/kj89/testnet_manuals/blob/main/sui/manual_install.md) if you better prefer setting up node manually
+// ### Option 2 (manual)
+// You can follow [manual guide](https://github.com/kj89/testnet_manuals/blob/main/sui/manual_install.md) if you better prefer setting up node manually
 
 ## Check status of your node
 ```
