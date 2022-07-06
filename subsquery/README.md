@@ -96,13 +96,6 @@ Klik Active > Send Transaction
 
 Klik Project yang sudah jadi -> Click Start Indexing
 
--------------------------------------------------------
-
-***Network Indexing:*** wss://polkadot.api.onfinality.io/public-ws
-
-***Dictionary Network:*** https://api.subquery.network/sq/subquery/polkadot-dictionary
-
--------------------------------------------------------
 Confirm -> Tunggu 1 Menit
 
 Klik lagi Annunce Indexing
@@ -125,6 +118,30 @@ Stop Indexing Project -> Restart Indexing
 -> Klik Announce Ready 
 
 -> Approve Metamask
+
+-------------------------------------------------------
+## *Project Indexing Polkadot*
+
+***Network Indexing For Polkadot:*** wss://polkadot.api.onfinality.io/public-ws
+
+***Dictionary Network For Polkadot:*** https://api.subquery.network/sq/subquery/polkadot-dictionary
+
+-------------------------------------------------------
+## *Project Indexing Avalanche*
+
+***Network Indexing For Avalanche:*** https://avalanche.api.onfinality.io/
+
+***Dictionary Network For Avalanche:*** https://api.subquery.network/sq/subquery/avalanche-dictionary
+
+-------------------------------------------------------
+## *Project Indexing Cosmos*
+
+***Network Indexing For Cosmos:*** https://rpc.juno-1.api.onfinality.io
+
+***Dictionary Network For Cosmos:*** https://api.subquery.network/sq/subquery/cosmos-juno-1-dictionary
+
+-------------------------------------------------------
+
 
 Done
 -------------------------------------------------------
