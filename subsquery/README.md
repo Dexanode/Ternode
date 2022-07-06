@@ -5,7 +5,7 @@
 
 Update and Upgrade
 ```
-sudo apt-get upgdate && sudo apt-get upgrade -y
+sudo apt-get update && sudo apt-get upgrade -y
 ```
 
 Install Docker
