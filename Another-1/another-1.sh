@@ -4,7 +4,7 @@
 echo -e "\033[1;31m"
 
 echo "       (        )     )  (          "; 
-echo "  *   )      )\ )  ( /(  ( /(  )\ )        ";
+echo "  *   )      )  )  (  (  (  (  )  )        ";
 echo "` )  /( (   (()/(  )\()) )\())(()/(   (    ";
 echo " ( )(_)))\   /(_))((_)\ ((_)\  /(_))  )\   ";
 echo "(_(_())((_) (_))   _((_)  ((_)(_))_  ((_)  ";
@@ -14,7 +14,7 @@ echo "  |_|  |___||_|_\ |_|\_| \___/ |___/ |___| ";
 echo -e "\e[0m"
 echo -e "\033[0;31m"
 echo "Discord 			: XDexa#5062                          	";
-echo "Discuss Group Channel 	: Airdrop Sultan Indonesia    		";
+echo "Channel		 	: Airdrop Sultan Indonesia    		";
 echo "Telegram 			: @dexa555                         	";
 echo "Twitter  			: @nft_week                            	";
 echo -e "\e[0m"
