@@ -1,7 +1,7 @@
 #!/bin/sh
 
 
-echo -e "\033[0;34m"
+echo -e "\033[0;35m"
 echo " ▄▀▀▀█▀▀▄  ▄▀▀█▄▄▄▄  ▄▀▀▄▀▀▀▄  ▄▀▀▄ ▀▄  ▄▀▀▀▀▄   ▄▀▀█▄▄   ▄▀▀█▄▄▄▄ ";
 echo "█    █  ▐ ▐  ▄▀   ▐ █   █   █ █  █ █ █ █      █ █ ▄▀   █ ▐  ▄▀   ▐ ";
 echo "▐   █       █▄▄▄▄▄  ▐  █▀▀█▀  ▐  █  ▀█ █      █ ▐ █    █   █▄▄▄▄▄  ";
@@ -10,7 +10,7 @@ echo " ▄▀        ▄▀▄▄▄▄   █     █   ▄▀   █     ▀▀�
 echo "█          █    ▐   ▐     ▐   █    ▐            █     ▐   █    ▐   ";
 echo "▐          ▐                  ▐                 ▐         ▐        ";
 echo -e "\e[0m"
-echo -e "\033[0;34m"
+echo -e "\033[0;35m"
 echo "Discord 			: XDexa#5062                          	";
 echo "Channel		 	: Airdrop Sultan Indonesia    		";
 echo "Telegram 			: @dexa555                         	";
