@@ -1,16 +1,18 @@
 #!/bin/sh
 
 
-echo -e "\033[1;33m"
-echo " ▄▀▀█▄▄   ▄▀▀█▄▄▄▄  ▄▀▀▄  ▄▀▄  ▄▀▀█▄   ▄▀▀▄ ▀▄  ▄▀▀▀▀▄   ▄▀▀█▄▄   ▄▀▀█▄▄▄▄ ";
-echo "█ ▄▀   █ ▐  ▄▀   ▐ █    █   █ ▐ ▄▀ ▀▄ █  █ █ █ █      █ █ ▄▀   █ ▐  ▄▀   ▐ ";
-echo "▐ █    █   █▄▄▄▄▄  ▐     ▀▄▀    █▄▄▄█ ▐  █  ▀█ █      █ ▐ █    █   █▄▄▄▄▄  ";
-echo "  █    █   █    ▌       ▄▀ █   ▄▀   █   █   █  ▀▄    ▄▀   █    █   █    ▌  ";
-echo " ▄▀▄▄▄▄▀  ▄▀▄▄▄▄       █  ▄▀  █   ▄▀  ▄▀   █     ▀▀▀▀    ▄▀▄▄▄▄▀  ▄▀▄▄▄▄   ";
-echo "█     ▐   █    ▐     ▄▀  ▄▀   ▐   ▐   █    ▐            █     ▐   █    ▐   ";
-echo "▐         ▐         █    ▐            ▐                 ▐         ▐        ";
+echo -e "\033[1;31m"
+
+echo "       (        )     )  (          "; 
+echo "  *   )      )\ )  ( /(  ( /(  )\ )        ";
+echo "` )  /( (   (()/(  )\()) )\())(()/(   (    ";
+echo " ( )(_)))\   /(_))((_)\ ((_)\  /(_))  )\   ";
+echo "(_(_())((_) (_))   _((_)  ((_)(_))_  ((_)  ";
+echo "|_   _|| __|| _ \ | \| | / _ \ |   \ | __| ";
+echo "  | |  | _| |   / | .` || (_) || |) || _|  ";
+echo "  |_|  |___||_|_\ |_|\_| \___/ |___/ |___| ";
 echo -e "\e[0m"
-echo -e "\033[0;34m"
+echo -e "\033[0;31m"
 echo "Discord 			: XDexa#5062                          	";
 echo "Discuss Group Channel 	: Airdrop Sultan Indonesia    		";
 echo "Telegram 			: @dexa555                         	";
@@ -134,5 +136,5 @@ curl https://snapshots1-testnet.nodejumper.io/another1-testnet/${SNAP_NAME} | lz
 sudo systemctl restart anoned
 
 echo -e 'successful installation'
-echo -e 'to check logs: \e[1m\e[32msudo journalctl -u anoned -f --no-hostname -o cat\e[0m'
-echo -e "to check sync status: \e[1m\e[32manoned status 2>&1 | jq .SyncInfo\e[0m"
+echo -e 'to check logs: \e[1m\e[31msudo journalctl -u anoned -f --no-hostname -o cat\e[0m'
+echo -e "to check sync status: \e[1m\e[31manoned status 2>&1 | jq .SyncInfo\e[0m"
