@@ -11,10 +11,10 @@ echo "█          █    ▐   ▐     ▐   █    ▐            █     ▐ 
 echo "▐          ▐                  ▐                 ▐         ▐        ";
 echo -e "\e[0m"
 echo -e "\033[0;35m"
-echo "Discord 			: XDexa#5062                          	";
-echo "Channel		 	: Airdrop Sultan Indonesia    		";
-echo "Telegram 			: @dexa555                         	";
-echo "Twitter  			: @nft_week                            	";
+echo "Discord : XDexa#5062";
+echo "Channel : Airdrop Sultan Indonesia";
+echo "Telegram : @dexa555";
+echo "Twitter  : @nft_week";
 echo -e "\e[0m"
 sleep 2
 echo
