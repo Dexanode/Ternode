@@ -26,9 +26,12 @@ A brief description of what this project does and who it's for
 - Open your backup arweave file `arweave-key.....json`
 - Copy 
 
-``` cd validator-rush ```
+```bash
+cd validator-rush ```
 
-``` nano wallet.json ```
+```bash
+nano wallet.json 
+```
 
 - Paste your json
 - CTRL X and Y For Save json file
