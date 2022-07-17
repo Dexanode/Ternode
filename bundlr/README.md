@@ -27,7 +27,8 @@ A brief description of what this project does and who it's for
 - Copy 
 
 ```bash
-cd validator-rush ```
+cd validator-rush 
+```
 
 ```bash
 nano wallet.json 
