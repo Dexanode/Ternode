@@ -25,7 +25,8 @@ A brief description of what this project does and who it's for
 ### Step Wallet For Azure User
 - Open your backup arweave file `arweave-key.....json`
 - Copy 
-```cd validator-rush ```
+
+```cd validator-rush```
 
 ```nano wallet.json```
 
