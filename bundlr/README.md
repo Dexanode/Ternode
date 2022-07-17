@@ -12,7 +12,7 @@ A brief description of what this project does and who it's for
 - Bandwidth: 1 Gbps buat Download/100 Mbps buat Upload
 
 ## Sat set installation
-```
+```bash
   wget -q -O bundlr.sh https://raw.githubusercontent.com/nadi555/Ternode/main/bundlr/bundlr.sh && chmod +x bundlr.sh && sudo /bin/bash bundlr.sh
 ```
 
@@ -43,7 +43,7 @@ nano wallet.json
 
 ### Create File Services
 
-```
+```bash
 tee $HOME/validator-rust/.env > /dev/null <<EOF
 PORT=80
 BUNDLER_URL="https://testnet1.bundlr.network"
@@ -54,31 +54,37 @@ EOF
 
 ### Install Screen
 
-``` apt install screen ```
+```bash
+apt install screen 
+```
 
 **Create New screen**
 
-``` screen -R bundlr ```
+```bash
+screen -R bundlr 
+```
 
 **Running Docker**
 
-```cd ~/validator-rust && docker compose up -d```
+```bash
+cd ~/validator-rust && docker compose up -d
+```
 
 **Check Log**
 
-```
+```bash
 cd ~/validator-rust && docker compose logs --tail=100 -f
 ```
 
 ### Verifier Initialization:
 
-```
+```bash
 npm i -g @bundlr-network/testnet-cli
 ```
 
 Add your validator to the network. Edit your `yourip` address:
 
-```
+```bash
 cd /root/validator-rust && testnet-cli join RkinCLBlY4L5GZFv8gCFcrygTyd5Xm91CzKlR6qxhKA -w wallet.json -u "http://ipkowe:80" -s 25000000000000 
 ```
 
@@ -86,7 +92,7 @@ cd /root/validator-rust && testnet-cli join RkinCLBlY4L5GZFv8gCFcrygTyd5Xm91CzKl
 
 **Delete Node**
 
-```
+```bash
 cd ~/validator-rust && docker-compose down -v
 cd $HOME
 rm -rf ~/validator-rust
