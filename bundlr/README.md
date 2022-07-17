@@ -36,11 +36,16 @@ cd validator-rush
 ```
 
 ```bash
-nano wallet.json 
+touch wallet.json
 ```
 
-- Paste your json
-- CTRL X and Y For Save json file
+```bash
+vi wallet.json
+```
+
+- ENTER E for Edit File 
+- ENTER P or righ click for paste file ``.json``
+- Enter ``:wq`` for save and exit
 
 ### Step Wallet For Cantabo or SFTP Opened
 - Copy File json and Paste on MobaXterm 
@@ -70,6 +75,7 @@ screen -R bundlr
 ```
 
 **Running Docker**
+Wait 5 - 10 Minutes
 
 ```bash
 cd ~/validator-rust && docker compose up -d
@@ -80,6 +86,7 @@ cd ~/validator-rust && docker compose up -d
 ```bash
 cd ~/validator-rust && docker compose logs --tail=100 -f
 ```
+- CTRL A+D for save screen
 
 ### Verifier Initialization:
 
@@ -90,7 +97,7 @@ npm i -g @bundlr-network/testnet-cli
 Add your validator to the network. Edit your `yourip` address:
 
 ```bash
-cd /root/validator-rust && testnet-cli join RkinCLBlY4L5GZFv8gCFcrygTyd5Xm91CzKlR6qxhKA -w wallet.json -u "http://ipkowe:80" -s 25000000000000 
+cd /root/validator-rust && testnet-cli join RkinCLBlY4L5GZFv8gCFcrygTyd5Xm91CzKlR6qxhKA -w wallet.json -u "http://yourip:80" -s 25000000000000 
 ```
 
 ### DONE
