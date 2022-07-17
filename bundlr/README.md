@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <height="auto" src="https://user-images.githubusercontent.com/65535542/179391342-c941e9a8-4fd5-41dd-857c-907b47d863d1.png">
+  ![Bundlr](https://user-images.githubusercontent.com/65535542/179391342-c941e9a8-4fd5-41dd-857c-907b47d863d1.png)
 </p>
 A brief description of what this project does and who it's for
 
