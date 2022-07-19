@@ -29,13 +29,12 @@ if [ ! $WALLET ]; then
 	echo "export WALLET=$WALLET" >> $HOME/.bash_profile
 fi
 echo "export TERITORI_CHAIN_ID=teritori-testnet-v2" >> $HOME/.bash_profile
-echo "export TERITORI_PORT=${TERITORI_PORT}" >> $HOME/.bash_profile
 source $HOME/.bash_profile
 echo '||================INFO===================||'
 echo
 echo -e "YOU NODE NAME : \e[1m\e[32m$NODENAME\e[0m"
 echo -e "YOU WALLET NAME : \e[1m\e[32m$WALLET\e[0m"
-echo -e "Your chain name: \e[1m\e[32m$TERITORI_CHAIN_ID\e[0m"
+echo -e "YOU CHAIN ID : \e[1m\e[32m$TERITORI_CHAIN_ID\e[0m"
 sleep 2
 echo
 
