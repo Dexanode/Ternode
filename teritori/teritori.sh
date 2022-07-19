@@ -18,12 +18,12 @@ echo "Twitter  : @nft_week";
 echo -e "\e[0m"
 sleep 2
 
-# set vars
+# Set Vars
 if [ ! $NODENAME ]; then
-	read -p "Enter node name: " NODENAME
+	read -p "YOUR NODE NAME : " NODENAME
 	echo 'export NODENAME='$NODENAME >> $HOME/.bash_profile
 fi
-TERITORI_PORT=19
+
 if [ ! $WALLET ]; then
     read -p "YOUR WALLET NAME  : " WALLET
 	echo "export WALLET=$WALLET" >> $HOME/.bash_profile
@@ -31,14 +31,11 @@ fi
 echo "export TERITORI_CHAIN_ID=teritori-testnet-v2" >> $HOME/.bash_profile
 echo "export TERITORI_PORT=${TERITORI_PORT}" >> $HOME/.bash_profile
 source $HOME/.bash_profile
-
 echo '||================INFO===================||'
 echo
 echo -e "YOU NODE NAME : \e[1m\e[32m$NODENAME\e[0m"
 echo -e "YOU WALLET NAME : \e[1m\e[32m$WALLET\e[0m"
-echo -e "YOU CHAIN ID : \e[1m\e[32m$TERITORI_CHAIN_ID\e[0m"
-echo -e "Your port: \e[1m\e[32m$TERITORI_PORT\e[0m"
-echo '||=======================================||'
+echo -e "Your chain name: \e[1m\e[32m$TERITORI_CHAIN_ID\e[0m"
 sleep 2
 echo
 
