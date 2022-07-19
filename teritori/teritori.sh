@@ -35,7 +35,9 @@ echo '||================INFO===================||'
 echo
 echo -e "YOU NODE NAME : \e[1m\e[32m$NODENAME\e[0m"
 echo -e "YOU WALLET NAME : \e[1m\e[32m$WALLET\e[0m"
-echo -e "YOU CHAIN ID : \e[1m\e[32m$ANONE_CHAIN_ID\e[0m"
+echo -e "YOU CHAIN ID : \e[1m\e[32m$TERITORI_CHAIN_ID\e[0m"
+echo -e "Your port: \e[1m\e[32m$TERITORI_PORT\e[0m"
+echo '||=======================================||'
 sleep 2
 echo
 
