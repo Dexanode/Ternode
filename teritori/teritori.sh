@@ -1,20 +1,20 @@
 #!/bin/sh
 
 
-echo -e "\033[1;33m"
-echo " ▄▀▀█▄▄   ▄▀▀█▄▄▄▄  ▄▀▀▄  ▄▀▄  ▄▀▀█▄   ▄▀▀▄ ▀▄  ▄▀▀▀▀▄   ▄▀▀█▄▄   ▄▀▀█▄▄▄▄ ";
-echo "█ ▄▀   █ ▐  ▄▀   ▐ █    █   █ ▐ ▄▀ ▀▄ █  █ █ █ █      █ █ ▄▀   █ ▐  ▄▀   ▐ ";
-echo "▐ █    █   █▄▄▄▄▄  ▐     ▀▄▀    █▄▄▄█ ▐  █  ▀█ █      █ ▐ █    █   █▄▄▄▄▄  ";
-echo "  █    █   █    ▌       ▄▀ █   ▄▀   █   █   █  ▀▄    ▄▀   █    █   █    ▌  ";
-echo " ▄▀▄▄▄▄▀  ▄▀▄▄▄▄       █  ▄▀  █   ▄▀  ▄▀   █     ▀▀▀▀    ▄▀▄▄▄▄▀  ▄▀▄▄▄▄   ";
-echo "█     ▐   █    ▐     ▄▀  ▄▀   ▐   ▐   █    ▐            █     ▐   █    ▐   ";
-echo "▐         ▐         █    ▐            ▐                 ▐         ▐        ";
+echo -e "\033[0;31m"
+echo " ▄▀▀▀█▀▀▄  ▄▀▀█▄▄▄▄  ▄▀▀▄▀▀▀▄  ▄▀▀▄ ▀▄  ▄▀▀▀▀▄   ▄▀▀█▄▄   ▄▀▀█▄▄▄▄ ";
+echo "█    █  ▐ ▐  ▄▀   ▐ █   █   █ █  █ █ █ █      █ █ ▄▀   █ ▐  ▄▀   ▐ ";
+echo "▐   █       █▄▄▄▄▄  ▐  █▀▀█▀  ▐  █  ▀█ █      █ ▐ █    █   █▄▄▄▄▄  ";
+echo "   █        █    ▌   ▄▀    █    █   █  ▀▄    ▄▀   █    █   █    ▌  ";
+echo " ▄▀        ▄▀▄▄▄▄   █     █   ▄▀   █     ▀▀▀▀    ▄▀▄▄▄▄▀  ▄▀▄▄▄▄   ";
+echo "█          █    ▐   ▐     ▐   █    ▐            █     ▐   █    ▐   ";
+echo "▐          ▐                  ▐                 ▐         ▐        ";
 echo -e "\e[0m"
-echo -e "\033[1;33m"
-echo "Discord : XDexa#5062                                ";
-echo "Discuss Group Channel : Airdrop Sultan Indonesia    ";
-echo "Telegram : @dexa555                                ";
-echo "Twitter  : @nft_week                                ";
+echo -e "\033[1;31m"
+echo "Discord : XDexa#5062";
+echo "Channel : Airdrop Sultan Indonesia";
+echo "Telegram : @dexa555";
+echo "Twitter  : @nft_week";
 echo -e "\e[0m"
 sleep 2
 
