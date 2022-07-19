@@ -25,7 +25,8 @@ if [ ! $NODENAME ]; then
 fi
 TERITORI_PORT=19
 if [ ! $WALLET ]; then
-	echo "export WALLET=wallet" >> $HOME/.bash_profile
+    read -p "YOUR WALLET NAME  : " WALLET
+	echo "export WALLET=$WALLET" >> $HOME/.bash_profile
 fi
 echo "export TERITORI_CHAIN_ID=teritori-testnet-v2" >> $HOME/.bash_profile
 echo "export TERITORI_PORT=${TERITORI_PORT}" >> $HOME/.bash_profile
