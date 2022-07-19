@@ -17,8 +17,28 @@ echo "Telegram : @dexa555                                ";
 echo "Twitter  : @nft_week                                ";
 echo -e "\e[0m"
 sleep 2
+
+# Set Vars
+if [ ! $NODENAME ]; then
+	read -p "YOUR NODE NAME : " NODENAME
+	echo 'export NODENAME='$NODENAME >> $HOME/.bash_profile
+fi
+
+if [ ! $WALLET ]; then
+    read -p "YOUR WALLET NAME  : " WALLET
+	echo "export WALLET=$WALLET" >> $HOME/.bash_profile
+fi
+echo "export ANONE_CHAIN_ID=anone-testnet-1" >> $HOME/.bash_profile
+source $HOME/.bash_profile
+echo '||================INFO===================||'
 echo
-echo -e "\e[1m\e[32m1. Updating packages... \e[0m" && sleep 1
+echo -e "YOU NODE NAME : \e[1m\e[32m$NODENAME\e[0m"
+echo -e "YOU WALLET NAME : \e[1m\e[32m$WALLET\e[0m"
+echo -e "YOU CHAIN ID : \e[1m\e[32m$ANONE_CHAIN_ID\e[0m"
+sleep 2
+echo
+
+echo -e "\e[1m\e[31m[+] Update && Dependencies... \e[0m" && sleep 1
 # update
 sudo apt update && sudo apt upgrade -y
 
