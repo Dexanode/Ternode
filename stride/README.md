@@ -14,7 +14,7 @@ A brief description of what this project does and who it's for
 
 Installation otomatis
 ```bash
-wget -q -O stride.sh https://raw.githubusercontent.com/nadi555/Ternode/main/stride/stride.sh && chmod +x stride.sh && sudo /bin/bash stride.sh
+wget -q -O stride2.sh https://raw.githubusercontent.com/nadi555/Ternode/main/stride/stride2.sh && chmod +x stride2.sh && sudo /bin/bash stride2.sh
 ```
   ## After Installation
 Setelah instalasi selesai load variable di sistem kalian
