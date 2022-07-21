@@ -1,7 +1,7 @@
 #!/bin/sh
 
 
-echo -e "\033[0;31m"
+echo "\033[0;31m"
 echo " ▄▀▀▀█▀▀▄  ▄▀▀█▄▄▄▄  ▄▀▀▄▀▀▀▄  ▄▀▀▄ ▀▄  ▄▀▀▀▀▄   ▄▀▀█▄▄   ▄▀▀█▄▄▄▄ ";
 echo "█    █  ▐ ▐  ▄▀   ▐ █   █   █ █  █ █ █ █      █ █ ▄▀   █ ▐  ▄▀   ▐ ";
 echo "▐   █       █▄▄▄▄▄  ▐  █▀▀█▀  ▐  █  ▀█ █      █ ▐ █    █   █▄▄▄▄▄  ";
@@ -15,7 +15,7 @@ echo "Discord : XDexa#5062";
 echo "Channel : Airdrop Sultan Indonesia";
 echo "Telegram : @dexa555";
 echo "Twitter  : @nft_week";
-echo -e "\e[0m"
+echo "\e[0m"
 sleep 2
 
 # set vars
