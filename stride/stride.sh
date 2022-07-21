@@ -1,20 +1,20 @@
 #!/bin/sh
 
 
-echo -e "\033[1;33m"
-echo " ▄▀▀█▄▄   ▄▀▀█▄▄▄▄  ▄▀▀▄  ▄▀▄  ▄▀▀█▄   ▄▀▀▄ ▀▄  ▄▀▀▀▀▄   ▄▀▀█▄▄   ▄▀▀█▄▄▄▄ ";
-echo "█ ▄▀   █ ▐  ▄▀   ▐ █    █   █ ▐ ▄▀ ▀▄ █  █ █ █ █      █ █ ▄▀   █ ▐  ▄▀   ▐ ";
-echo "▐ █    █   █▄▄▄▄▄  ▐     ▀▄▀    █▄▄▄█ ▐  █  ▀█ █      █ ▐ █    █   █▄▄▄▄▄  ";
-echo "  █    █   █    ▌       ▄▀ █   ▄▀   █   █   █  ▀▄    ▄▀   █    █   █    ▌  ";
-echo " ▄▀▄▄▄▄▀  ▄▀▄▄▄▄       █  ▄▀  █   ▄▀  ▄▀   █     ▀▀▀▀    ▄▀▄▄▄▄▀  ▄▀▄▄▄▄   ";
-echo "█     ▐   █    ▐     ▄▀  ▄▀   ▐   ▐   █    ▐            █     ▐   █    ▐   ";
-echo "▐         ▐         █    ▐            ▐                 ▐         ▐        ";
+echo -e "\033[0;31m"
+echo " ▄▀▀▀█▀▀▄  ▄▀▀█▄▄▄▄  ▄▀▀▄▀▀▀▄  ▄▀▀▄ ▀▄  ▄▀▀▀▀▄   ▄▀▀█▄▄   ▄▀▀█▄▄▄▄ ";
+echo "█    █  ▐ ▐  ▄▀   ▐ █   █   █ █  █ █ █ █      █ █ ▄▀   █ ▐  ▄▀   ▐ ";
+echo "▐   █       █▄▄▄▄▄  ▐  █▀▀█▀  ▐  █  ▀█ █      █ ▐ █    █   █▄▄▄▄▄  ";
+echo "   █        █    ▌   ▄▀    █    █   █  ▀▄    ▄▀   █    █   █    ▌  ";
+echo " ▄▀        ▄▀▄▄▄▄   █     █   ▄▀   █     ▀▀▀▀    ▄▀▄▄▄▄▀  ▄▀▄▄▄▄   ";
+echo "█          █    ▐   ▐     ▐   █    ▐            █     ▐   █    ▐   ";
+echo "▐          ▐                  ▐                 ▐         ▐        ";
 echo -e "\e[0m"
-echo -e "\033[0;34m"
-echo "Discord 			: XDexa#5062                          	";
-echo "Discuss Group Channel 	: Airdrop Sultan Indonesia    		";
-echo "Telegram 			: @dexa555                         	";
-echo "Twitter  			: @nft_week                            	";
+echo -e "\033[1;31m"
+echo "Discord : XDexa#5062";
+echo "Channel : Airdrop Sultan Indonesia";
+echo "Telegram : @dexa555";
+echo "Twitter  : @nft_week";
 echo -e "\e[0m"
 sleep 2
 
@@ -48,22 +48,23 @@ echo -e "\e[1m\e[32m2. Installing dependencies... \e[0m" && sleep 1
 sudo apt install curl build-essential git wget jq make gcc tmux chrony -y
 
 # install go
-ver="1.18.2"
-cd $HOME
-wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
-sudo rm -rf /usr/local/go
-sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
-rm "go$ver.linux-amd64.tar.gz"
-echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> ~/.bash_profile
-source ~/.bash_profile
-go version
+if ! [ -x "$(command -v go)" ]; then
+  ver="1.18.2"
+  cd $HOME
+  wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
+  sudo rm -rf /usr/local/go
+  sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
+  rm "go$ver.linux-amd64.tar.gz"
+  echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> ~/.bash_profile
+  source ~/.bash_profile
+fi
 
 echo -e "\e[1m\e[32m3. Downloading and building binaries... \e[0m" && sleep 1
 # download binary
 cd $HOME
 git clone https://github.com/Stride-Labs/stride.git
 cd stride
-git checkout afabdb8e17b4a2dac6906b61b80b37c60638a7f0
+git checkout c53f6c562d9d3e098aab5c27303f41ee055572cb
 make build
 sudo cp $HOME/stride/build/strided /usr/local/bin
 
@@ -79,8 +80,8 @@ strided init $NODENAME --chain-id $STRIDE_CHAIN_ID
 wget -qO $HOME/.stride/config/genesis.json "https://raw.githubusercontent.com/Stride-Labs/testnet/main/poolparty/genesis.json"
 
 # set peers and seeds
-SEEDS=""
-PEERS="c73d5d83ae121dd9f2ebbfd381724c844a5e5106@34.67.223.91:26656,f852421c9279a831bd787d982b853a4cbdeca6c6@65.108.209.4:36656,a6fb5a11a78dbd63335963d2d34f15baed280a53@65.108.242.49:26656,68ca73e494a38aad1b11815fd50721421424fe47@138.201.139.175:21016"
+SEEDS="baee9ccc2496c2e3bebd54d369c3b788f9473be9@seedv1.poolparty.stridenet.co:26656"
+PEERS=""
 sed -i -e "s/^seeds *=.*/seeds = \"$SEEDS\"/; s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" $HOME/.stride/config/config.toml
 
 # set custom ports
