@@ -90,3 +90,146 @@ After that, write in the CLI
 ```bash
 near login
 ```
+
+See the authorisation link and copy it into the browser window where you wallet is opened. After connecting a wallet, right the wallet name ("accountId".shardnet.near) in the CLI and confirm.
+
+#Copy your wallet json and make some changes
+
+```bash
+cd ~/.near-credentials/shardnet/
+cp wallet.json ~/.near/validator_key.json
+nano validator_key.json
+```
+
+Change the account ID and Private Key parameter accordingly, then exit nano editor.
+
+
+```bash
+{ 
+"account_id": "xx.factory.shardnet.near", 
+"public_key":"ed25519:HeaBJ3xLgvZacQWmEctTeUqyfSU4SDEnEwckWxd92W2G", "secret_key": "ed25519:****" 
+}
+```
+
+Create a service file (one command)
+
+
+```bash
+sudo tee /etc/systemd/system/neard.service > /dev/null <<EOF 
+[Unit] 
+Description=NEARd Daemon Service 
+[Service] 
+Type=simple 
+User=$USER
+#Group=near 
+WorkingDirectory=$HOME/.near
+ExecStart=$HOME/nearcore/target/release/neard run 
+Restart=on-failure 
+RestartSec=30 
+KillSignal=SIGINT 
+TimeoutStopSec=45 
+KillMode=mixed 
+[Install] 
+WantedBy=multi-user.target 
+EOF
+```
+
+Now start the service and see logs, that everything works fine. You should see it downloading headers firstly and the blocks. Waiting for full sync.
+
+
+```bash
+sudo systemctl daemon-reload 
+sudo systemctl enable neard 
+sudo systemctl start neard
+journalctl -f -u neard
+```
+
+```bash
+sudo apt install ccze
+
+journalctl -n 100 -f -u neard | ccze -A
+```
+
+Now let’s deploy a contract of our staking pool with 30 NEAR staked!
+
+
+```bash
+near call factory.shardnet.near create_staking_pool '{"staking_pool_id": "<pool id>", "owner_id": "<accountId>", "stake_public_key": "<public key>", "reward_fee_fraction": {"numerator": 5, "denominator": 100}, "code_hash":"DD428g9eqLL8fWUxv8QSpVFzyHi1Qd16P8ephYCTmMSZ"}' --accountId="<accountId>" --amount=30 --gas=300000000000000
+```
+
+Change "pool id", "accountId", "public key", "accountId" parameters here!
+
+My example for this
+
+
+```bash
+near call factory.shardnet.near create_staking_pool '{"staking_pool_id": "666aknode", "owner_id": "aknode.shardnet.near", "stake_public_key": "ed25519:FS6KjVhKNaZHnwrSerQBPLJLJGYZkH66j9FNbALHWYz5", "reward_fee_fraction": {"numerator": 5, "denominator": 100}, "code_hash":"DD428g9eqLL8fWUxv8QSpVFzyHi1Qd16P8ephYCTmMSZ"}' --accountId="aknode.shardnet.near" --amount=30 --gas=300000000000000
+```
+
+If everything is fine, you should see yourself in near proposals command. Let’s look at the seat price in the bottom of near proposals command. And then we will need to stake. Remember to set environmentals for shardnet!
+
+
+```bash
+near proposals
+```
+
+Change parametres for staking accordingly!
+
+
+```bash
+near call 666aknode.factory.shardnet.near  deposit_and_stake --amount 1200 --accountId aknode.shardnet.near --gas=300000000000000
+```
+
+In the few epochs, you will be able to see yourself in the explorer and by typing
+
+
+```bash
+near validators current 
+near validators next
+```
+
+Finally, we can set the ping (every 5 minutes)
+
+
+```bash
+mkdir $HOME/nearcore/logs
+```
+
+```bash
+nano $HOME/nearcore/scripts/ping.sh
+```
+
+Edit "PoolID" && "AccountID"
+
+
+```bash
+#!/bin/sh
+# Ping call to renew Proposal added to crontab
+
+export NEAR_ENV=shardnet
+export LOGS=$HOME/nearcore/logs
+export POOLID="PoolID"
+export ACCOUNTID="AccountID"
+
+echo "---" >> $LOGS/all.log
+date >> $LOGS/all.log
+near call $POOLID.factory.shardnet.near ping '{}' --accountId $ACCOUNTID.shardnet.near --gas=300000000000000 >> $LOGS/all.log
+near proposals | grep $POOLID >> $LOGS/all.log
+near validators current | grep $POOLID >> $LOGS/all.log
+near validators next | grep $POOLID >> $LOGS/all.log
+```
+
+```bash
+contrab -e
+```
+
+```bash
+*/5 * * * * sh $HOME/nearcore/scripts/ping.sh
+```
+
+cek logs
+
+
+```bash
+cat $HOME/nearcore/logs/all.log
+```
