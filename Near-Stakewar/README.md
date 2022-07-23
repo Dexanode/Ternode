@@ -243,8 +243,9 @@ near validators next | grep $POOLID >> $LOGS/all.log
 ```
 
 ```bash
-contrab -e
+crontrab -e
 ```
+copy in crontab
 
 ```bash
 */5 * * * * sh $HOME/nearcore/scripts/ping.sh
