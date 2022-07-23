@@ -47,7 +47,7 @@ sudo npm install -g near-cli
 Setup Environment
 ```bash
 export NEAR_ENV=shardnet 
-echo ‘export NEAR_ENV=shardnet’ >> ~/.bashrc 
+echo ‘export NEAR_ENV=shardnet’ >> ~/.bashrc
 source ~/.bashrc
 ```
 
