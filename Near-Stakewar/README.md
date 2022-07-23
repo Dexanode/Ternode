@@ -243,7 +243,7 @@ near validators next | grep $POOLID >> $LOGS/all.log
 ```
 
 ```bash
-crontrab -e
+crontab -e
 ```
 copy in crontab
 
