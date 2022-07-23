@@ -185,7 +185,7 @@ My example for this
 
 
 ```bash
-near call factory.shardnet.near create_staking_pool '{"staking_pool_id": "666aknode", "owner_id": "aknode.shardnet.near", "stake_public_key": "ed25519:FS6KjVhKNaZHnwrSerQBPLJLJGYZkH66j9FNbALHWYz5", "reward_fee_fraction": {"numerator": 5, "denominator": 100}, "code_hash":"DD428g9eqLL8fWUxv8QSpVFzyHi1Qd16P8ephYCTmMSZ"}' --accountId="aknode.shardnet.near" --amount=30 --gas=300000000000000
+near call factory.shardnet.near create_staking_pool '{"staking_pool_id": "0xdexa", "owner_id": "0xdedxa.shardnet.near", "stake_public_key": "ed25519:FS6KjVhKNaZHnwrSerQBPLJLJGYZkH66j9FNbALHWYz5", "reward_fee_fraction": {"numerator": 5, "denominator": 100}, "code_hash":"DD428g9eqLL8fWUxv8QSpVFzyHi1Qd16P8ephYCTmMSZ"}' --accountId="0xdexa.shardnet.near" --amount=30 --gas=300000000000000
 ```
 
 If everything is fine, you should see yourself in near proposals command. Let’s look at the seat price in the bottom of near proposals command. And then we will need to stake. Remember to set environmentals for shardnet!
@@ -199,7 +199,7 @@ Change parametres for staking accordingly!
 
 
 ```bash
-near call 666aknode.factory.shardnet.near  deposit_and_stake --amount 1200 --accountId aknode.shardnet.near --gas=300000000000000
+near call 0xdexa.factory.shardnet.near  deposit_and_stake --amount 1200 --accountId aknode.shardnet.near --gas=300000000000000
 ```
 
 In the few epochs, you will be able to see yourself in the explorer and by typing
