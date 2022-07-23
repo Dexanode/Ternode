@@ -168,6 +168,10 @@ sudo apt install ccze
 journalctl -n 100 -f -u neard | ccze -A
 ```
 
+![SyncNode](https://user-images.githubusercontent.com/65535542/180588601-ded8a58b-67fa-4297-985e-0057bbc3d339.png)
+
+Wait a few minutes until download and sync
+
 Now let’s deploy a contract of our staking pool with 30 NEAR staked!
 
 
