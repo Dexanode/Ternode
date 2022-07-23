@@ -199,7 +199,7 @@ Change parametres for staking accordingly!
 
 
 ```bash
-near call 0xdexa.factory.shardnet.near  deposit_and_stake --amount 1200 --accountId aknode.shardnet.near --gas=300000000000000
+near call 0xdexa.factory.shardnet.near  deposit_and_stake --amount 1200 --accountId 0xdexa.shardnet.near --gas=300000000000000
 ```
 
 In the few epochs, you will be able to see yourself in the explorer and by typing
