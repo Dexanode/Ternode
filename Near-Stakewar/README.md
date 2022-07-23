@@ -91,6 +91,9 @@ After that, write in the CLI
 near login
 ```
 
+![login1](https://user-images.githubusercontent.com/65535542/180588477-38dbb5a3-b778-479e-ac14-4154f0113926.png)
+
+
 See the authorisation link and copy it into the browser window where you wallet is opened. After connecting a wallet, right the wallet name ("accountId".shardnet.near) in the CLI and confirm.
 
 #Copy your wallet json and make some changes
