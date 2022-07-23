@@ -93,6 +93,21 @@ near login
 
 ![login1](https://user-images.githubusercontent.com/65535542/180588477-38dbb5a3-b778-479e-ac14-4154f0113926.png)
 
+Confirm connect wallet 
+
+![login2](https://user-images.githubusercontent.com/65535542/180588548-a604d2e5-ead6-4d3d-abca-b6da17622bb8.png)
+
+if it looks like the one above, don't panic, because it's already connected successfully
+
+![login3](https://user-images.githubusercontent.com/65535542/180588586-a97d118f-7f2d-4f37-b903-187fc77fdcb1.png)
+
+Enter your address 
+
+![login3](https://user-images.githubusercontent.com/65535542/180588597-431ba975-f31a-4e10-9ca5-016d74176fc8.png)
+
+Done
+
+### Next Step
 
 See the authorisation link and copy it into the browser window where you wallet is opened. After connecting a wallet, right the wallet name ("accountId".shardnet.near) in the CLI and confirm.
 
