@@ -253,6 +253,9 @@ copy in crontab
 
 cek logs
 
+```bash
+sh $HOME/nearcore/scripts/ping.sh
+```
 
 ```bash
 cat $HOME/nearcore/logs/all.log
