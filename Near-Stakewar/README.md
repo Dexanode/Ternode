@@ -1,6 +1,7 @@
 
 # Near - Stakewars III
 **In Validators, We Trust.**
+
 ** Mission I - VI **
 
 <p style="font-size:14px" align="left">
