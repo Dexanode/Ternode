@@ -19,7 +19,7 @@
 
 **Update**
 ```bash
-sudo apt-get update
+sudo apt-get update && sudo apt-get upgrade -y
 ```
 ```bash
 sudo apt install git sudo unzip wget -y
@@ -64,6 +64,6 @@ docker-compose -f docker-compose-boot.yml logs -f dvf_root_node | grep enr
 ```
 
 **Example Output**
-```bash
+```
 dvf-dvf_root_node-1 | Base64 ENR: enr:-IS4QNa-kpJM1eWfueeEnY2iXlLAL0QY2gAWAhmsb4c8VmrSK9J7N5dfXS_DgSASCDrUTHMqMUlP4OXSYEVh-Z7zFHkBgmlkgnY0gmlwhAMBnbWJc2VjcDI1NmsxoQPKY0yuDUmstAHYpMa2_oxVtw0RW_QAdpzBQA8yWM0xOIN1ZHCCIy0
 ```
