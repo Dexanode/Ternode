@@ -25,8 +25,6 @@ sudo apt-get update
 sudo apt install git sudo unzip wget -y
 ```
 
-Install Node JS and NPM
-
 **Clone**
 
 ```bash
