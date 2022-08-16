@@ -17,7 +17,7 @@
 
 ## Installation
 
-** Update **
+**Update**
 ```bash
 sudo apt-get update
 ```
@@ -27,14 +27,14 @@ sudo apt install git sudo unzip wget -y
 
 Install Node JS and NPM
 
-** Clone **
+**Clone**
 
 ```bash
 git clone --recurse-submodules https://github.com/ParaState/SafeStakeOperator
 cd SafeStakeOperator
 ```
 
-** Install Docker **
+**Install Docker**
 
 ``` bash
 sudo apt-get install ca-certificates curl gnupg lsb-release -y
@@ -44,7 +44,7 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 ```
 
-** Instal docker-compose **
+**Instal docker-compose**
 ```bash
 mkdir -p ~/.docker/cli-plugins/
 curl -SL https://github.com/docker/compose/releases/download/v2.6.1/docker-compose-linux-x86_64 -o ~/.docker/cli-plugins/docker-compose
@@ -52,7 +52,7 @@ chmod +x ~/.docker/cli-plugins/docker-compose
 sudo chown $USER /var/run/docker.sock
 ```
 
-** Running Docker **
+**Running Docker**
 ```bash
 sudo docker compose -f docker-compose-boot.yml build
 ```
@@ -65,7 +65,7 @@ sudo docker compose -f docker-compose-boot.yml up -d
 docker-compose -f docker-compose-boot.yml logs -f dvf_root_node | grep enr
 ```
 
-Example Output
+**Example Output**
 ```bash
 dvf-dvf_root_node-1 | Base64 ENR: enr:-IS4QNa-kpJM1eWfueeEnY2iXlLAL0QY2gAWAhmsb4c8VmrSK9J7N5dfXS_DgSASCDrUTHMqMUlP4OXSYEVh-Z7zFHkBgmlkgnY0gmlwhAMBnbWJc2VjcDI1NmsxoQPKY0yuDUmstAHYpMa2_oxVtw0RW_QAdpzBQA8yWM0xOIN1ZHCCIy0
 ```
