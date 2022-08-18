@@ -15,7 +15,7 @@
 - 8GB RAM
 - 200GB of storage (SSD or NVME)
 
-## Installation
+## Installation Running Node Operator
 
 **Update**
 ```bash
@@ -25,11 +25,18 @@ sudo apt-get update && sudo apt-get upgrade -y
 sudo apt install git sudo unzip wget -y
 ```
 
-**Clone**
-
+**Set Firewall Rules**
 ```bash
-git clone --recurse-submodules https://github.com/ParaState/SafeStakeOperator
-cd SafeStakeOperator
+sudo ufw allow 25000:25003/tcp
+sudo ufw allow 9000/tcp
+sudo ufw allow 8545:8547/tcp
+sudo ufw allow 25004/udp
+sudo ufw allow 22/tcp
+sudo ufw allow 3000:3001/tcp
+sudo ufw allow 80/tcp
+sudo ufw allow 30303/tcp
+sudo ufw allow 9000/udp
+sudo ufw enable
 ```
 
 **Install Docker**
@@ -50,20 +57,63 @@ chmod +x ~/.docker/cli-plugins/docker-compose
 sudo chown $USER /var/run/docker.sock
 ```
 
-**Running Docker**
+**Create Local Directory**
 ```bash
-sudo docker compose -f docker-compose-boot.yml build
+sudo mkdir -p /data/geth
+sudo mkdir -p /data/lighthouse
+sudo mkdir -p /data/jwt
+sudo mkdir -p /data/operator
+```
+**Generate your JWT secret to JWT dirctory**
+```bash
+openssl rand -hex 32 | tr -d "\n" | sudo tee /data/jwt/jwtsecret
 ```
 
+**Clone**
 ```bash
-sudo docker compose -f docker-compose-boot.yml up -d
+git clone --recurse-submodules https://github.com/ParaState/SafeStakeOperator.git dvf
 ```
 
+**Configuration**
 ```bash
-docker-compose -f docker-compose-boot.yml logs -f dvf_root_node | grep enr
+cd dvf
+vim .env
+```
+Type ```ESC``` and ```:wq``` and ```ENTER```
+
+**Build Operator**
+```bash
+sudo docker compose -f docker-compose-operator.yml build
 ```
 
-**Example Output**
+**Run Operator**
+```bash
+sudo docker compose -f docker-compose-operator.yml up -d
 ```
-dvf-dvf_root_node-1 | Base64 ENR: enr:-IS4QNa-kpJM1eWfueeEnY2iXlLAL0QY2gAWAhmsb4c8VmrSK9J7N5dfXS_DgSASCDrUTHMqMUlP4OXSYEVh-Z7zFHkBgmlkgnY0gmlwhAMBnbWJc2VjcDI1NmsxoQPKY0yuDUmstAHYpMa2_oxVtw0RW_QAdpzBQA8yWM0xOIN1ZHCCIy0
+
+**Get Node Public Key**
+```bash
+sudo docker compose -f docker-compose-operator.yml logs -f operator | grep "node public key"
 ```
+
+Save your Public Key
+
+**Back Up Operator Key**
+```bash
+cd /data/operator/ropsten/
+nano node_key.json
+```
+
+## Register Node Operator
+
+- Open link -> https://testnet.safestake.xyz/
+- Connet Wallet with Metamask 
+- Change network to Ropsten (Must have 32 rETH for joining Operator)
+- Join As Operator
+- Register Operator
+    -> Owner Address (Address Metamask)
+    -> Display Name
+    -> Operator Key (Enter the key you saved earlier)
+    -> Done
+- Approve with Metamask 
+- Done
