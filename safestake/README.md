@@ -113,9 +113,14 @@ nano node_key.json
 ![Safestake](https://user-images.githubusercontent.com/65535542/185357274-9d052234-922d-4ba2-835c-f502f2fc6db8.png)
 - Register Operator
     -> Owner Address (Address Metamask)
+    
     -> Display Name
+    
     -> Operator Key (Enter the key you saved earlier)
+    
     -> Done
+    
     ![Safestake](https://user-images.githubusercontent.com/65535542/185357496-bf0f2e94-4839-4888-8e4d-c88bdec3497d.png)
+    
 - Approve with Metamask 
 - Done
