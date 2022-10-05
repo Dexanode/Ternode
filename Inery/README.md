@@ -114,22 +114,34 @@ Cek Node kalian di sini - > https://explorer.inery.io/
 
 # Tambahan
 ### Buat hapus node (uninstall) go to 
-```inery.setup/inery.node/ and execute ./stop.sh script```
+```
+inery.setup/inery.node/ and execute ./stop.sh script
+```
 
 ### Untuk melanjutkan protokol blockchain, jalankan 
-```start.sh script```
+```
+start.sh script
+```
 
 ### Untuk menghapus blockchain dengan semua data dari mesin lokal, buka 
-```inery.setup/inery.node/ and execute ./clean.sh script```
+```
+inery.setup/inery.node/ and execute ./clean.sh script
+```
 
 ### Kalau Node pas running node masternya ga jalan
 
-```pkill nodine```
+```
+pkill nodine
+```
 
 Lanjut Hapus dulu driectory master-node
 
-```cd inery-testnet/inery.setup```
+```
+cd inery-testnet/inery.setup
+```
 
 Hapus Directory
 
-```rm -rf master.node```
+```
+rm -rf master.node
+```
