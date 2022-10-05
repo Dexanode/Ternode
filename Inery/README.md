@@ -1,5 +1,5 @@
 
-# BUNDLR TESTNET
+# INERY TESTNET TASK I
 <p style="font-size:14px" align="left">
 <a href="https://t.me/airdropsultanindonesia" target="_blank">Join to Channel Airdrop Sultan Indonesia</a>
 </p>
@@ -17,96 +17,119 @@ A brief description of what this project does and who it's for
 - Disk: 250 GB SSD Storage
 - Bandwidth: 1 Gbps buat Download/100 Mbps buat Upload
 
-## Sat set installation
+## Update Package
 ```bash
-  wget -q -O bundlr.sh https://raw.githubusercontent.com/nadi555/Ternode/main/bundlr/bundlr.sh && chmod +x bundlr.sh && sudo /bin/bash bundlr.sh
+  sudo apt-get update && sudo apt install git && sudo apt install screen
 ```
 
-## After installation
-### Create and Fund your wallet address
-- Go to https://faucet.arweave.net/ and Create Wallet 
-- Download your wallet
-- And tweet your verif wallet arweave
-
-### Step Wallet For Azure User
-- Open your backup arweave file `arweave-key.....json`
-- Copy 
-
-```bash
-cd validator-rush 
+## Edit Firewall Port
+```
+ufw allow 22 && ufw allow 8888 && ufw allow 9010 && ufw enable -y
 ```
 
-```bash
-touch wallet.json
+# Installing Node
+## Cloning Inery Node from github
+```
+git clone https://github.com/inery-blockchain/inery-node
 ```
 
-```bash
-vi wallet.json
+## Go to inery setup folder
+```
+cd inery-node/inery.setup
 ```
 
-- ENTER E for Edit File 
-- ENTER P or righ click for paste file ``.json``
-- Enter ``:wq`` for save and exit
-
-### Step Wallet For Cantabo or SFTP Opened
-- Copy File json and Paste on MobaXterm 
-- Don't forget rename file become ``wallet.json``
-
-### Create File Services
-
-```bash
-tee $HOME/validator-rust/.env > /dev/null <<EOF
-PORT=80
-BUNDLER_URL="https://testnet1.bundlr.network"
-GW_CONTRACT="RkinCLBlY4L5GZFv8gCFcrygTyd5Xm91CzKlR6qxhKA"
-GW_ARWEAVE="https://arweave.testnet1.bundlr.network"
-EOF
+## change app permission
+```
+chmod +x ine.py
 ```
 
-### Install Screen
-
-```bash
-apt install screen 
+## export path to local os environment for inery binaries
+```
+./ine.py --export
 ```
 
-**Create New screen**
-
-```bash
-screen -R bundlr 
+## refresh path variable
+```
+d; source .bashrc; cd -
 ```
 
-**Running Docker**
-Wait 5 - 10 Minutes
-
-```bash
-cd ~/validator-rust && docker compose up -d
+## Edit the configuration
+```
+sudo nano tools/config.json
 ```
 
-**Check Log**
-
-```bash
-cd ~/validator-rust && docker compose logs --tail=100 -f
-```
-- CTRL A+D for save screen
-
-### Verifier Initialization:
-
-```bash
-npm i -g @bundlr-network/testnet-cli
+``` "MASTER_ACCOUNT":
+{
+    "NAME": "AccountName",
+    "PUBLIC_KEY": "PublicKey",
+    "PRIVATE_KEY": "PrivateKey",
+    "PEER_ADDRESS": "IP:9010",
+    "HTTP_ADDRESS": "0.0.0.0:8888",
+    "HOST_ADDRESS": "0.0.0.0:9010"
+}
 ```
 
-Add your validator to the network. Edit your `yourip` address:
+AccountName ganti Account Name kalian di dashboard
+Public Key dan Private Key juga kalian replace yang di dashboard
+IP di PEER_ADDRESS ganti pake IP Private kalo yang pake azure kalau yang pake cantabo masukin IP Public
 
-```bash
-cd /root/validator-rust && testnet-cli join RkinCLBlY4L5GZFv8gCFcrygTyd5Xm91CzKlR6qxhKA -w wallet.json -u "http://yourip:80" -s 25000000000000 
+## Screen Master Node
+```
+screen -S master
 ```
 
-### DONE
-
-**Delete Node**
-
-```bash
-cd ~/validator-rust && docker-compose down -v
-cd $HOME
-rm -rf ~/validator-rust
 ```
+./ine.py --master
+```
+Ini Aga Lama jadi buka tab session baru aja biar nodenyea ke pantau
+
+## Create Wallet
+
+```
+cd;  cline wallet create --file defaultWallet.txt
+```
+
+## If your wallet has password, you need to unlock it first
+```
+cline wallet unlock --password YOUR_WALLET_PASSWORD
+```
+
+## Import Key
+```
+cline wallet import --private-key MASTER_PRIVATE_KEY
+ ```
+ change MASTER_PRIVATE_KEY dengan private kalian
+ 
+ ## Register as producer by executing command
+```
+cline system regproducer ACCOUNT_NAME ACCOUNT_PUBLIC_KEY 0.0.0.0:9010
+```
+
+## Approve your account as producer by executing command
+```
+cline system makeprod approve ACCOUNT_NAME ACCOUNT_NAME
+```
+
+Cek Node kalian di sini - > https://explorer.inery.io/
+
+# Tambahan
+### Buat hapus node (uninstall) go to 
+```inery.setup/inery.node/ and execute ./stop.sh script```
+
+### Untuk melanjutkan protokol blockchain, jalankan 
+```start.sh script```
+
+### Untuk menghapus blockchain dengan semua data dari mesin lokal, buka 
+```inery.setup/inery.node/ and execute ./clean.sh script```
+
+### Kalau Node pas running node masternya ga jalan
+
+```pkill nodine```
+
+Lanjut Hapus dulu driectory master-node
+
+```cd inery-testnet/inery.setup```
+
+Hapus Directory
+
+```rm -rf master.node```
