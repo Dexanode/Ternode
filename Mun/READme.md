@@ -1,11 +1,12 @@
 
-# MUN PHASE I IGNITION Node Validator
+# MUN Incentiviced Testnet Phase I
 <p style="font-size:14px" align="left">
 <a href="https://t.me/airdropsultanindonesia" target="_blank">Join to Channel Airdrop Sultan Indonesia</a>
 </p>
 
 ![Mun](https://user-images.githubusercontent.com/65535542/194721789-b6a65d1a-fdb7-47db-b17d-d7a6f958ed32.jpg#/)
 
+## Source Mun Testnet Incentiviced : https://medium.com/@munblockchain/mun-public-testnet-phase-1-ignition-is-now-live-e90fba027a42#/
 
 ## Persyaratan Hardware
 
