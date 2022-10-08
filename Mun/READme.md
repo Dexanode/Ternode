@@ -10,7 +10,7 @@
 
 <p style="font-size:14px" align="left">
 <a href="https://medium.com/@munblockchain/mun-public-testnet-phase-1-ignition-is-now-live-e90fba027a42#/
-a" target="_blank">### Source Mun Testnet Phase I</a>
+a" target="_blank">Source Mun Testnet Phase I</a>
 </p>
 
 ## Persyaratan Hardware
