@@ -54,6 +54,12 @@ source $HOME/.bash_profile
 sudo apt update && sudo apt upgrade -y && sudo apt install curl build-essential git wget jq make gcc tmux chrony -y
 ```
 
+### Install Go
+```bash
+wget -q -O - https://raw.githubusercontent.com/canha/golang-tools-install-script/master/goinstall.sh | bash -s -- --version 1.18
+source ~/.profile
+```
+
 ### Install Binaries
 ```bash
 git clone https://github.com/munblockchain/mun
