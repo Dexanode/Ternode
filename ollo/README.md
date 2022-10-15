@@ -18,11 +18,16 @@
 - Memory: 8 GB RAM
 - Disk: 100 GB SSD Storage
 
+##Setting Variable
+```bash
+NODENAME=<YOUR MONIKER>
+```
+
 ## Setting Validator
 
 ### Upgrade your dependecies and package
 
-bash```
+```bash
 sudo apt-get upgrade && sudo apt-get update -y
 ```
 
