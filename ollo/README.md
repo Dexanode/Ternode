@@ -2,7 +2,9 @@
 <a href="https://t.me/airdropsultanindonesia" target="_blank">Join to Channel Airdrop Sultan Indonesia</a>
 </p>
 
-![Ollo](https://user-images.githubusercontent.com/65535542/195965347-2ea6fb6d-2cf2-4240-a65b-9ad322415f75.png)
+<p align="center">
+  <img height="100" height="auto" src="https://user-images.githubusercontent.com/65535542/195965347-2ea6fb6d-2cf2-4240-a65b-9ad322415f75.png">
+</p>
 
 # Ollo Station Incentiviced Testnet
 
