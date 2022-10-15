@@ -22,6 +22,7 @@
 ```bash
 NODENAME=<YOUR MONIKER>
 ```
+Change ``<YOUR MONIKER>`` replace with whatever you like
 
 ## Setting Validator
 
@@ -30,8 +31,6 @@ NODENAME=<YOUR MONIKER>
 ```bash
 sudo apt-get upgrade && sudo apt-get update -y
 ```
-
-Change ``<YOUR MONIKER>`` replace with whatever you like
 
 Save and import variables
 
