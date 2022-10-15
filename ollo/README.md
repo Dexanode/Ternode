@@ -18,7 +18,7 @@
 - Memory: 8 GB RAM
 - Disk: 100 GB SSD Storage
 
-##Setting Variable
+## Setting Variable
 ```bash
 NODENAME=<YOUR MONIKER>
 ```
