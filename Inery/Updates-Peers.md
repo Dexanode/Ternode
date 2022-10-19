@@ -134,5 +134,5 @@ or your own screen name
 ![recover](https://user-images.githubusercontent.com/65535542/196742424-7e6b5180-6a94-4120-92c5-a4002c4798c0.png/)
 Succer Recover Wait for receiving blocks
 
-![donerecobver](https://user-images.githubusercontent.com/65535542/196742424-7e6b5180-6a94-4120-92c5-a4002c4798c0.png/)
+![donerecobver](https://user-images.githubusercontent.com/65535542/196743630-c63ec875-345b-4542-a77f-4d750561eb5d.png)
 This is when it has recovered
