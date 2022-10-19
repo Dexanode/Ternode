@@ -25,7 +25,7 @@ nano config.ini
 ```
 change 25 client to 100 ```CTRL X and Y``` ENTER
 
-![editmax](https://user-images.githubusercontent.com/65535542/196740276-9bfa21db-6c6b-4075-9fe0-a081f14fbb52.png/)
+![editmax](https://user-images.githubusercontent.com/65535542/196740276-9bfa21db-6c6b-4075-9fe0-a081f14fbb52.png)
 
 ## Add Peer Address With Command
 
@@ -33,7 +33,7 @@ change 25 client to 100 ```CTRL X and Y``` ENTER
 nano start.sh
 ```
 
-![copastpeers](https://user-images.githubusercontent.com/65535542/196742424-7e6b5180-6a94-4120-92c5-a4002c4798c0.png/)
+![copastpeers](https://user-images.githubusercontent.com/65535542/196742424-7e6b5180-6a94-4120-92c5-a4002c4798c0.png)
 Copy paste new peers under last peers
 
 ```bash
@@ -131,7 +131,7 @@ screen -Rd inery
 ```
 or your own screen name
 
-![recover](https://user-images.githubusercontent.com/65535542/196742424-7e6b5180-6a94-4120-92c5-a4002c4798c0.png/)
+![recover](https://user-images.githubusercontent.com/65535542/196743423-f4432c4f-48a1-4221-91dd-48603b6728a5.png)
 Succer Recover Wait for receiving blocks
 
 ![donerecobver](https://user-images.githubusercontent.com/65535542/196743630-c63ec875-345b-4542-a77f-4d750561eb5d.png)
