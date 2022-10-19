@@ -34,7 +34,7 @@ cd
 ```
 
 ```bash
-cd inery-node/inery.setup/master.node
+cd inery-node/inery.setup/master.node/
 ```
 
 ```bash
