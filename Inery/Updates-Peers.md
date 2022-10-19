@@ -4,7 +4,7 @@
 <a href="https://t.me/airdropsultanindonesia" target="_blank">Join to Channel Airdrop Sultan Indonesia</a>
 </p>
 
-![Inery](https://user-images.githubusercontent.com/65535542/191928956-e06ca9cd-a640-4553-aeb4-ac9706a3b810.png#/)
+![ineryyy](https://user-images.githubusercontent.com/65535542/191928956-e06ca9cd-a640-4553-aeb4-ac9706a3b810.png#/)
 
 
 
@@ -25,7 +25,7 @@ nano config.ini
 ```
 change 25 client to 100 ```CTRL X and Y``` ENTER
 
-![Inery](https://user-images.githubusercontent.com/65535542/196740276-9bfa21db-6c6b-4075-9fe0-a081f14fbb52.png/)
+![editmax](https://user-images.githubusercontent.com/65535542/196740276-9bfa21db-6c6b-4075-9fe0-a081f14fbb52.png/)
 
 ## Add Peer Address With Command
 
@@ -33,7 +33,7 @@ change 25 client to 100 ```CTRL X and Y``` ENTER
 nano start.sh
 ```
 
-![Inery](https://user-images.githubusercontent.com/65535542/196742424-7e6b5180-6a94-4120-92c5-a4002c4798c0.png/)
+![copastpeers](https://user-images.githubusercontent.com/65535542/196742424-7e6b5180-6a94-4120-92c5-a4002c4798c0.png/)
 Copy paste new peers under last peers
 
 ```bash
@@ -131,8 +131,8 @@ screen -Rd inery
 ```
 or your own screen name
 
-![Inery](https://user-images.githubusercontent.com/65535542/196742424-7e6b5180-6a94-4120-92c5-a4002c4798c0.png/)
+![recover](https://user-images.githubusercontent.com/65535542/196742424-7e6b5180-6a94-4120-92c5-a4002c4798c0.png/)
 Succer Recover Wait for receiving blocks
 
-![Inery](https://user-images.githubusercontent.com/65535542/196742424-7e6b5180-6a94-4120-92c5-a4002c4798c0.png/)
+![donerecobver](https://user-images.githubusercontent.com/65535542/196742424-7e6b5180-6a94-4120-92c5-a4002c4798c0.png/)
 This is when it has recovered
