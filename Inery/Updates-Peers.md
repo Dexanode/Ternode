@@ -30,6 +30,14 @@ change 25 client to 100 ```CTRL X and Y``` ENTER
 ## Add Peer Address With Command
 
 ```bash
+cd
+```
+
+```bash
+cd inery-node/inery.setup/master.node
+```
+
+```bash
 nano start.sh
 ```
 
