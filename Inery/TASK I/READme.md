@@ -50,7 +50,7 @@ chmod +x ine.py
 
 ## refresh path variable
 ```
-d; source .bashrc; cd -
+cd; source .bashrc; cd -
 ```
 
 ## Edit the configuration
