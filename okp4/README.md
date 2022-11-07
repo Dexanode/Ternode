@@ -18,7 +18,7 @@
 
 ## Sat set installation
 ```bash
-  wget -q -O okp4.sh https://raw.githubusercontent.com/nadi555/Ternode/main/okp4/okp4.sh && chmod +x okp4.sh && sudo /bin/bash okp4.sh
+wget -q -O okp4.sh https://raw.githubusercontent.com/nadi555/Ternode/main/okp4/okp4.sh && chmod +x okp4.sh && sudo /bin/bash okp4.sh
 ```
 
 ## After installation
