@@ -21,6 +21,9 @@
 wget -q -O okp4.sh https://raw.githubusercontent.com/nadi555/Ternode/main/okp4/okp4.sh && chmod +x okp4.sh && sudo /bin/bash okp4.sh
 ```
 
+## Manual Installation
+You can follow <a href="https://github.com/nadi555/Ternode/blob/main/okp4/manual_install.md" target="_blank">Manual Guide</a> in here for setup node manual installation
+
 ## After installation
 ### Load Variable
 ```bash
