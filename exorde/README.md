@@ -72,16 +72,21 @@ You can change the logs by changing ``4`` :
 
 ## Check the logs
 
-To check logs
+Check logs
 
 ```bash
 docker logs Exorde
 ```
-To check logs constantly
+Check logs constantly
 
 ```bash
 docker logs --follow Exorde
 
+```
+Check Explore
+
+```bash
+https://explorer.exorde.network/
 ```
 
 To delete node
