@@ -65,9 +65,13 @@ docker run -d -it --name Exorde exorde-cli -m $WALLET_ADDRESS -l 4
 You can change the logs by changing ``4`` :
 
 0 = no logs
+  
 1 = general logs
+  
 2 = validation logs
+  
 3 = validation + scraping logs
+
 4 = detailed validation + scraping logs (e.g. for troubleshooting)
 
 ## Check the logs
