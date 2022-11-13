@@ -10,7 +10,7 @@
 
 ## Sat set installation
 ```bash
-  wget -q -O aleo.sh https://raw.githubusercontent.com/nadi555/Ternode/main/loyal/aleo.sh && chmod +x aleo.sh && sudo /bin/bash aleo.sh
+  wget -q -O aleo.sh https://raw.githubusercontent.com/nadi555/Ternode/main/ale/aleo.sh && chmod +x aleo.sh && sudo /bin/bash aleo.sh
 ```
 
 ## AFTER Installation
