@@ -624,14 +624,14 @@ If there is an error output like this, ignore it and wait for the process to fin
 
 ## To Ensure Whether It's Running Well
 
-- Edit this : https://<Your-Username>.github.io/04-zkapp-browser-ui/index.html
+- Edit this : `https://<Your-Username>.github.io/04-zkapp-browser-ui/index.html`
 - Your-Username = Replace With Your Github Name
 - If Already, Paste into Google Chrome
 - If it goes well, it will open and ask for an approved transaction from your Mina wallet
 
 ## Send More Transactions
 
-- Open the Link https://<Your-Username>.github.io/04-zkapp-browser-ui/index.html You guys
+- Open the Link `https://<Your-Username>.github.io/04-zkapp-browser-ui/index.html` You guys
 - Connect Mina's Wallet and Approve
 - Refresh the Web Wait Until the Send Transaction Button Appears
 - Wait for the Transaction Approve Pop Up to Appear > Fill in Fee 1
