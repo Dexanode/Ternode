@@ -615,9 +615,9 @@ npm run deploy
 ```
 
 If there is an error output like this, ignore it and wait for the process to finish:
-```
+`
 ./pages/_app.page.tsx 95:6 Warning: React Hook useEffect has a missing dependency: 'state'. Either include it or remove the dependency array. You can also do a functional update 'setState(s => ...)' if you only need 'state' in the 'setState' call. react-hooks/exhaustive-deps 115:6 Warning: React Hook useEffect has a missing dependency: 'state'. Either include it or remove the dependency array. You can also do a functional update 'setState(s => ...)' if you only need 'state' in the 'setState' call. react-hooks/exhaustive-deps
-```
+`
 
 - Later, when finished, you will be asked to enter your Github username
 - Enter your Github password, remember at the beginning we used the access token. Use It Again for the Github Password (Or Create a New Access Token Again)
