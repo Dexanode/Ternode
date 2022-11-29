@@ -23,7 +23,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/Manta-Net
 manta-trusted-setup register
 ```
 <p align="center">
-  <img style="margin: auto; height: 100px; " src="[https://user-images.githubusercontent.com/65535542/204483961-992f1e39-ae50-4c03-b528-ee32a2563640.jpg](https://user-images.githubusercontent.com/65535542/204484297-ba3881a3-7af9-40fe-89c4-ba44c0af7119.png
+  <img src="[https://user-images.githubusercontent.com/65535542/204483961-992f1e39-ae50-4c03-b528-ee32a2563640.jpg](https://user-images.githubusercontent.com/65535542/204484297-ba3881a3-7af9-40fe-89c4-ba44c0af7119.png
 )">
 </p>
 
