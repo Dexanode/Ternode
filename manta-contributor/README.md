@@ -66,13 +66,14 @@ source $HOME/.cargo/env
 git clone https://github.com/Manta-Network/manta-rs.git
 ```
 
-## Screen
+## Installation
 
 ```bash
 screen -S manta
 ```
 ```bash
 cd manta-rs
+```
 
 ```bash
 cargo run --release --all-features --bin groth16_phase2_client contribute
