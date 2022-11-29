@@ -22,7 +22,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/Manta-Net
 ```bash
 manta-trusted-setup register
 ```
-![Manta](hhttps://user-images.githubusercontent.com/65535542/204484297-ba3881a3-7af9-40fe-89c4-ba44c0af7119.png/)
+![Manta](https://user-images.githubusercontent.com/65535542/204484297-ba3881a3-7af9-40fe-89c4-ba44c0af7119.png/)
 
 Save Pharse kalian dan juga isi formnya jangan lupa buat dapetin rewardnya
 
