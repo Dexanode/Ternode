@@ -27,6 +27,9 @@ manta-trusted-setup register
 )">
 </p>
 
+
+![manta2](https://user-images.githubusercontent.com/65535542/204484297-ba3881a3-7af9-40fe-89c4-ba44c0af7119.png)
+
 Save Pharse kalian dan juga isi formnya jangan lupa buat dapetin rewardnya
 
 - Cara dapetin address Calamari
