@@ -37,7 +37,7 @@ Save Pharse kalian dan juga isi formnya jangan lupa buat dapetin rewardnya
 - Ganti chainnya yang di menu drop-down sebelah kiri, cari Calamari chain terus switch
 - Ke menu setting terus update metadata
 - Balik ke wallet polkadot, klik yang titik 3 terus ganti chain ke Calamari Parachain
-- Done dapet address Calamary depannya 'dmw'
+- Done dapet address Calamary depannya 'dm'
 
 ## Run Contributor
 
