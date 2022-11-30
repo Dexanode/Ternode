@@ -81,7 +81,15 @@ screen -S master
 ```
 ./ine.py --master
 ```
-Ini Aga Lama jadi buka tab session baru aja biar nodenyea ke pantau
+Cek Logs
+
+```bash
+cd /root/inery-node/inery.setup/master.node/blockchain/
+```
+
+```bash
+tail -f nodine.log
+```
 
 ## Create Wallet
 
