@@ -1,5 +1,5 @@
 
-# Mina ZkSpark Testnet Installation Guide TASK 2 05-common-types-and-functions
+# Mina ZkSpark Testnet Installation Guide TASK 05-common-types-and-functions
 
 <p style="font-size:14px" align="left">
 <a href="https://t.me/airdropsultanindonesia" target="_blank">Join to Channel Airdrop Sultan Indonesia</a>
