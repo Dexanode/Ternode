@@ -574,5 +574,9 @@ zk deploy berkeley
 
 Jika sudah beres file, buka folder keys lalu backup file `berkeley.json` dan import ke aura wallet pake private key yang tadi di back up
 
+```bash
+cat 05-common-types-and-functions/keys/berkeley.json
+```
+
 Disini untuk dapetin Verification hashnya => https://minascan.io/berkeley/account/
 Terus isi form yang ZkApp => https://fisz9c4vvzj.typeform.com/zkSpark#discordid=xxxxx
