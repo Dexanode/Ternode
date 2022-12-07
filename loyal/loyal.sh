@@ -152,6 +152,7 @@ sudo systemctl restart $LYL
 
 echo '=============== Instalisasi Selesai Bang ==================='
 echo -e 'Check Log Node: \e[1m\e[32mjournalctl -fu loyald -o cat\e[0m'
+echo -e "\e[1m\e[31mSpecial Thanks Nodeist for Original Script <3\e[0m"
 echo -e "Check Status Node: \e[1m\e[32mcurl -s localhost:${LYL_PORT}657/status | jq .result.sync_info\e[0m"
 
 source $HOME/.bash_profile
