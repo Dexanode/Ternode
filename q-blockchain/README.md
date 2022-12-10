@@ -132,7 +132,7 @@ Then add `--ethstats=ITN-testname-ecd07:qstats-testnet@stats.qtestnet.org`
 
 Example : 
 
-<img height="450" height="auto" src="https://user-images.githubusercontent.com/34649601/206747640-e29e7f73-a549-416a-b52f-6a138f402212.png">
+<img height="450" height="auto" src="https://user-images.githubusercontent.com/65535542/206832106-8227ce79-e947-4a02-8827-b7c7fa18e8d6.png">
 
 
 Then Run the Validator : 
