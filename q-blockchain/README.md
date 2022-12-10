@@ -57,10 +57,6 @@ mkdir keystore
 cd keystore/
 echo "$PASSWORD" >> pwd.txt
 ```
-## Download Genesis
-```bash
-curl -s https://raw.githubusercontent.com/neutron-org/testnets/main/quark/genesis.json > ~/.neutrond/config/genesis.json
-```
 
 ## Generate Wallet
 ```bash
