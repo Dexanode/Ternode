@@ -137,12 +137,12 @@ Example :
 
 Then Run the Validator : 
 ```
-docker compose up -d
+docker-compose up -d
 ```
 
 Check logs ( You have to be in the compose directory! )
 ```
-docker compose logs -f
+docker-compose logs -f
 ```
 CTRL+C to exit logs
 
@@ -175,8 +175,8 @@ Change this 3 Value
 
 ### Run your docker-compose
 ```
-docker compose up -d
-docker compose logs -f
+docker-compose up -d
+docker-compose logs -f
 ```
 To check logs You have to be in the compose directory!
 
