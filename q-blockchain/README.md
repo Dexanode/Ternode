@@ -162,7 +162,7 @@ nano .env
 
 Change this 3 Value 
 
-<img height="450" height="auto" src="https://user-images.githubusercontent.com/34649601/206751937-40a418fc-c60d-4d3c-bebc-c7814b065b86.png">
+<img height="450" height="auto" src="https://user-images.githubusercontent.com/65535542/206834397-f3e96aa5-ddce-4b96-8d05-808b96f779ca.png">
 
 
 `ORACLE_VALIDATOR_ADDRESS` :	`Provide your Q validator address. Example: 0xac8e5047d122f801...`
