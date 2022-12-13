@@ -35,7 +35,7 @@ Update your package
 ```bash
 sudo apt update && \
 sudo apt upgrade && \
-apt-install docker-compose
+apt install docker-compose
 ```
 
 ## Install Docker
