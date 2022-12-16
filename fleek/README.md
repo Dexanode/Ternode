@@ -9,20 +9,7 @@
   <img style="margin: auto; height: 100px; border-radius: 50%;" src="https://user-images.githubusercontent.com/65535542/208038501-fa6a8c6b-3702-468d-af7f-55c8f26f827a.png">
 </p>
 
-
-## ABOUT FLEEK adn Register Wailist
-
-* [Registrasi Beta waitlist](https://fleek.xyz/)
-
-* Dokumen resmi
-  * [Fleek Network: Getting Started Guide](https://blog.fleek.co/posts/fleek-network-getting-started-guide)
-  * [Fleek Network: How to install Rust and the dependencies for Ursa CLI](https://blog.fleek.co/posts/fleek-network-how-to-install-rust-and-the-dependencies-for-ursa-cli)
-  * [Fleek Network: Running a node in a Docker container](https://blog.fleek.co/posts/fleek-network-running-a-node-in-a-docker-container)
-
-* [Server Discord](https://discord.gg/fleekxyz)
-
 ## Requirements Hardware
-
 
 | Component | Recomendation Spec |
 |----------|---------------------|
