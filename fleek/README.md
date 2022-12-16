@@ -29,7 +29,7 @@ Install `screen` dan `wget`
 Download script `run.sh`
   ```bash
   rm run.sh
-  wget -q https://raw.githubusercontent.com/bayy420-999/Tutorial-testnet-Fleek-Airdrop-Finder/master/run.sh
+  wget -q https://raw.githubusercontent.com/nadi555/Ternode/main/fleek/run.sh
   ```
 
 Change `run.sh` to executable
@@ -117,7 +117,7 @@ Go to folder `ursa`
 Update Makefile
   ```bash
   rm Makefile
-  wget -q https://raw.githubusercontent.com/bayy420-999/Tutorial-testnet-Fleek-Airdrop-Finder/master/Makefile
+  wget -q https://raw.githubusercontent.com/nadi555/Ternode/main/fleek/makefile
   ```
 
 Instal `Ursa-cli`
@@ -135,7 +135,7 @@ Build container `Docker`
   make docker-build
   ```
 
-Jalankan container `Docker`
+Running container `Docker`
   ```bash
   make docker-run
   ```
