@@ -19,7 +19,7 @@
 |Connection|1 Gbit/s port|
 |OS|Ubuntu 20.04|
 
-## Setup
+## Sat set Installation
 
 Install `screen` dan `wget`
   ```bash
