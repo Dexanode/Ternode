@@ -116,13 +116,13 @@ If it is added correctly, you should receive a json response whose `success` is 
 {"success":true,"result":{"confirmed":true, ... }}
 ```
 
-## Remove dokcer
+## Remove Docker Muon
 
-untuk liat id dockernya 
+Untuk liat ID Dockernya 
 ```bash
 docker ps 
 ```
-terus 
+Terus 
 ```bash
 sudo docker kill <id_docker_muon>
 ```
