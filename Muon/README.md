@@ -85,7 +85,7 @@ Visit -> https://alice.muon.net/join
 
 ### Mint Faucet Muon
 
-![muon1](https://user-images.githubusercontent.com/65535542/213710401-cb58f64d-5c07-4edf-986e-bef31a6d21d1.png/)
+![muon1](https://user-images.githubusercontent.com/65535542/213710401-cb58f64d-5c07-4edf-986e-bef31a6d21d1.png)
 
 
 ### Register add Node
@@ -99,7 +99,9 @@ example
 
 {"address":"0x06A85356DCb5b307096726FB86A78c59D38e08ee","peerId":"Qma3GsJmB47xYuyahPZPSadh1avvxfyYQwk8R3UnFrQ6aP","managerContract":{"network":"bsctest","address":"0x2efB53c11FC935f6114B3fC37AaFa6a76B263a4E"},"shield":{"enable":false,"apps":[]},"addedToNetwork":false}
 ```
-
+  
+![muon3](https://user-images.githubusercontent.com/65535542/213770172-54cd5744-506a-4eb8-a666-47e8f74dac3d.png)
+  
 Enter Address and peerID, and then Add Node
 
 The fields Node Address and Peer Id are obtained from the node's status as explained above in "Running the Node". To test whether or not your node has successfully been added to the network, open the following link in your browser.
