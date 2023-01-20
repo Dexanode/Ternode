@@ -81,7 +81,7 @@ Result look like
 Visit -> https://alice.muon.net/join 
 ### Connect Wallet
 
-![muon](https://user-images.githubusercontent.com/65535542/213710107-ee12c47a-692f-4131-a782-8ad295dd87dd.png/)
+![muon](https://user-images.githubusercontent.com/65535542/213710107-ee12c47a-692f-4131-a782-8ad295dd87dd.png)
 
 ### Mint Faucet Muon
 
