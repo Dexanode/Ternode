@@ -81,11 +81,11 @@ Result look like
 Visit -> https://alice.muon.net/join 
 ### Connect Wallet
 
-![muon1](https://user-images.githubusercontent.com/65535542/213710107-ee12c47a-692f-4131-a782-8ad295dd87dd.png/)
+![muon](https://user-images.githubusercontent.com/65535542/213710107-ee12c47a-692f-4131-a782-8ad295dd87dd.png/)
 
 ### Mint Faucet Muon
 
-![muon2](https://user-images.githubusercontent.com/65535542/213710401-cb58f64d-5c07-4edf-986e-bef31a6d21d1.png/)
+![muon1](https://user-images.githubusercontent.com/65535542/213710401-cb58f64d-5c07-4edf-986e-bef31a6d21d1.png/)
 
 
 ### Register add Node
