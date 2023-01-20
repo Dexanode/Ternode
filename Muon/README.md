@@ -104,6 +104,7 @@ Enter Address and peerID, and then Add Node
 
 The fields Node Address and Peer Id are obtained from the node's status as explained above in "Running the Node". To test whether or not your node has successfully been added to the network, open the following link in your browser.
 
+Bagian ini emang lama jadi kudu sabar yak
 ```bash
 http://<server-ip>:8000/v1/?app=tss&method=test
 ```
