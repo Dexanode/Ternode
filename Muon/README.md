@@ -116,6 +116,16 @@ If it is added correctly, you should receive a json response whose `success` is 
 {"success":true,"result":{"confirmed":true, ... }}
 ```
 
+## Remove dokcer
 
-
-
+untuk liat id dockernya 
+```bash
+docker ps 
+```
+terus 
+```bash
+sudo docker kill <id_docker_muon>
+```
+```bash
+sudo docker rm kill <id_docker_muon>
+```
