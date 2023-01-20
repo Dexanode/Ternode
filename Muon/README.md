@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img style="margin: auto; height: 100px; border-radius: 50%;" src="https://user-images.githubusercontent.com/65535542/213711680-fd483b03-6635-4f4d-8156-a1a8be79a126.png">
+  <img style="margin: auto; border-radius: 50%;" src="https://user-images.githubusercontent.com/65535542/213711680-fd483b03-6635-4f4d-8156-a1a8be79a126.png">
 </p>
 
 ## Requirements Hardware
