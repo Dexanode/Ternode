@@ -148,31 +148,3 @@ Output if Succes
 sudo certbot --nginx --register-unsafely-without-email
 sudo certbot --nginx --redirect -d ${API_DOMAIN},${RPC_DOMAIN}
 ```
-
-Done
-
-
-
-sudo cat <<EOF > /etc/nginx/sites-enabled/${GRPC_DOMAIN}.conf
-server {
-    server_name $GRPC_DOMAIN;
-    listen 80;
-    location / {
-        add_header Access-Control-Allow-Origin *;
-        add_header Access-Control-Max-Age 3600;
-        add_header Access-Control-Expose-Headers Content-Length;
-
-	proxy_set_header   X-Real-IP        \$remote_addr;
-        proxy_set_header   X-Forwarded-For  \$proxy_add_x_forwarded_for;
-        proxy_set_header   Host             \$host;
-	
-	proxy_http_version 1.1;
-        proxy_set_header Upgrade \$http_upgrade;
-        proxy_set_header Connection "upgrade";
-
-        proxy_pass http://$GRPC_IP_PORT;
-
-    }
-}
-EOF
-
