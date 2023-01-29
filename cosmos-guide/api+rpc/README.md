@@ -144,7 +144,7 @@ Output if Succes
 
 ### Install Certificate SSL
 
-``bash
+```bash
 sudo certbot --nginx --register-unsafely-without-email
 sudo certbot --nginx --redirect -d ${API_DOMAIN},${RPC_DOMAIN}
 ```
