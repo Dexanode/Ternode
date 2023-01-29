@@ -432,6 +432,6 @@ hermes tx ft-transfer \
 --timeout-height-offset 180 
 ```
 
-```bash
+`
 Note :  src-chain bisa di ganti begitu juga dengan dst-chain tergantung kebutuhan
-```
+`
