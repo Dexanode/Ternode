@@ -63,6 +63,7 @@ API_DOMAIN="YOUR_API_DOMAIN"
 - Set API Port
 ```bash
 API_IP_PORT="IP:PORT"
+```
 
 - Set RPC Domain
 ```bash
