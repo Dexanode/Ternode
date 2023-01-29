@@ -15,7 +15,7 @@
 ## Setting api in app.toml
 
 <p align="center">
-  <img style="margin: auto; height: auto;" src="https://user-images.githubusercontent.com/65535542/215300842-ea4c35d8-9767-449c-9003-43adb961bf36.png">
+  <img style="margin: auto; height: auto;" src="https://user-images.githubusercontent.com/65535542/215301089-2477d432-005b-4505-a3d2-28976ddd1d6c.png">
 </p>
 
 ```bash
