@@ -15,7 +15,7 @@
 ## Setting api in app.toml
 
 <p align="center">
-  <img style="margin: auto; height: 100px; border-radius: 50%;" src="https://user-images.githubusercontent.com/65535542/215300842-ea4c35d8-9767-449c-9003-43adb961bf36.png">
+  <img style="margin: auto; height: auto;" src="https://user-images.githubusercontent.com/65535542/215300842-ea4c35d8-9767-449c-9003-43adb961bf36.png">
 </p>
 
 ```bash
@@ -38,7 +38,7 @@ sudo apt install nginx certbot python3-certbot-nginx nodejs git yarn -y
 ### Cek API and RPC IP:PORT
 
 <p align="center">
-  <img style="margin: auto; height: 100px; border-radius: 50%;" src="https://user-images.githubusercontent.com/65535542/215300888-5fe0d7da-ef16-4f86-b9be-81af01f26058.png">
+  <img style="margin: auto; height: auto;" src="https://user-images.githubusercontent.com/65535542/215300888-5fe0d7da-ef16-4f86-b9be-81af01f26058.png">
 </p>
 
 ```bash
@@ -46,7 +46,7 @@ sudo apt install nginx certbot python3-certbot-nginx nodejs git yarn -y
  ```
 
  <p align="center">
-  <img style="margin: auto; height: 100px; border-radius: 50%;" src="https://user-images.githubusercontent.com/65535542/215300888-5fe0d7da-ef16-4f86-b9be-81af01f26058.png">
+  <img style="margin: auto; height: auto;" src="https://user-images.githubusercontent.com/65535542/215300888-5fe0d7da-ef16-4f86-b9be-81af01f26058.png">
 </p>
 
 
@@ -54,7 +54,7 @@ sudo apt install nginx certbot python3-certbot-nginx nodejs git yarn -y
  nano $HOME/.planqd/config/config.toml
  ```
 <p align="center">
-  <img style="margin: auto; height: 100px; border-radius: 50%;" src="https://user-images.githubusercontent.com/65535542/215300949-42bb29cc-116d-483d-a512-a4c29fb325d1.png">
+  <img style="margin: auto; height: auto;" src="https://user-images.githubusercontent.com/65535542/215300949-42bb29cc-116d-483d-a512-a4c29fb325d1.png">
 </p>
 
 
