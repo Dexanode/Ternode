@@ -37,9 +37,6 @@ sudo apt install nginx certbot python3-certbot-nginx nodejs git yarn -y
 
 ### Cek API and RPC IP:PORT
 
-<p align="center">
-  <img style="margin: auto; height: auto;" src="https://user-images.githubusercontent.com/65535542/215300888-5fe0d7da-ef16-4f86-b9be-81af01f26058.png">
-</p>
 
 ```bash
  nano $HOME/.planqd/config/app.toml
