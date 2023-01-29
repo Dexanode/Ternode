@@ -435,3 +435,11 @@ hermes tx ft-transfer \
 `
 Note :  src-chain bisa di ganti begitu juga dengan dst-chain tergantung kebutuhan
 `
+
+## Check Operator in here
+
+Cosmos : https://www.mintscan.io/cosmos/relayers/channel-446
+
+Osmosis : https://www.mintscan.io/osmosis/relayers/channel-492
+
+Gravity : https://www.mintscan.io/gravity-bridge/relayers/channel-102
