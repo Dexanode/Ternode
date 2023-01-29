@@ -62,3 +62,11 @@ server {
     }
 EOF
 ```
+
+
+# Restart Web Server
+
+```bash
+service nginx restart
+
+```
