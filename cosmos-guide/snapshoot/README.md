@@ -4,10 +4,6 @@
 <a href="https://t.me/airdropsultanindonesia" target="_blank">Join to Channel Airdrop Sultan Indonesia</a>
 </p>
 
-<p align="center">
-  <img style="margin: auto; height: 100px; border-radius: 50%;" src="https://user-images.githubusercontent.com/65535542/215299422-a34bbb08-a436-4570-a329-6fb996dfaee0.png">
-</p>
-
 
 ## Create subdomain for snapshot
 
