@@ -17,7 +17,7 @@ mkdir -p $HOME/.hermes
 hermes version
 ```
 
-## IF `glibc` Error
+### If `glibc` Error
 
 ```bash
 sed -i '1i deb http://nova.clouds.archive.ubuntu.com/ubuntu/ jammy main' /etc/apt/sources.list
