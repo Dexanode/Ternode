@@ -65,10 +65,12 @@ rm kyved_linux_amd64.tar.gz
 
 ```bash
 PEERS="96dcb3c72e9d60148912be2a466fc3e3308a847b@51.222.248.196:26656,ff10bd7294e3d744b351d65be49fa33ca3578b9a@144.76.176.154:13656,78d76da232b5a9a5648baa20b7bd95d7c7b9d249@142.93.161.118:26656,f796a61306ccd1f446ba052826ae420a8279c2da@173.212.232.24:26656,31262ceb4dc9fbbb9a604a4c200b7442a734cda1@65.108.54.91:26656,b2cd108d5dbf9bb67943bc1adb9a33f39725daae@65.109.8.151:26656"
+```
 
 ### Initialize Node
 
 Replace Moniker to Your Node Name
+
 ```bash
 kyved init Moniker --chain-id=kaon-1
 ```
