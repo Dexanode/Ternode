@@ -12,10 +12,9 @@
 
 # Official Links
 ### [Official Document](https://docs.bonus.network/validators/overview.html)
-### [bonus Official Discord](https://discord.gg/cwmR8jNrNp)
 
 # Explorer
-### [Explorer](https://explorer.bonus.network/blocktopia-1/staking)
+### [Explorer](https://explorer.dexanode.site/bonusblock/staking)
 
 ## Minimum Requirements 
 - 4 or more physical CPU cores
