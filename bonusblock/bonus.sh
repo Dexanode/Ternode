@@ -1,13 +1,20 @@
 
-echo -e "\033[0;36m"
-echo "		   / __ \___  _  ______ _____  ____  ____/ /__    ";
-echo "		  / / / / _ \| |/_/ __ `/ __ \/ __ \/ __  / _ \	  ";
-echo "		 / /_/ /  __/>  </ /_/ / / / / /_/ / /_/ /  __/   ";
-echo "		/_____/\___/_/|_|\__,_/_/ /_/\____/\__,_/\___/    ";
-echo ">>> BonusBlock Auto Installation | Chain ID : blocktopia-1  <<<";
+echo -e "\033[0;31m"
+echo " ▄▀▀▀█▀▀▄  ▄▀▀█▄▄▄▄  ▄▀▀▄▀▀▀▄  ▄▀▀▄ ▀▄  ▄▀▀▀▀▄   ▄▀▀█▄▄   ▄▀▀█▄▄▄▄ ";
+echo "█    █  ▐ ▐  ▄▀   ▐ █   █   █ █  █ █ █ █      █ █ ▄▀   █ ▐  ▄▀   ▐ ";
+echo "▐   █       █▄▄▄▄▄  ▐  █▀▀█▀  ▐  █  ▀█ █      █ ▐ █    █   █▄▄▄▄▄  ";
+echo "   █        █    ▌   ▄▀    █    █   █  ▀▄    ▄▀   █    █   █    ▌  ";
+echo " ▄▀        ▄▀▄▄▄▄   █     █   ▄▀   █     ▀▀▀▀    ▄▀▄▄▄▄▀  ▄▀▄▄▄▄   ";
+echo "█          █    ▐   ▐     ▐   █    ▐            █     ▐   █    ▐   ";
+echo "▐          ▐                  ▐                 ▐         ▐        ";
 echo -e "\e[0m"
-
-sleep 1
+echo -e "\033[1;31m"
+echo "Discord : XDexa#5062";
+echo "Channel : Airdrop Sultan Indonesia";
+echo "Telegram : @dexa555";
+echo "Twitter  : @nft_week";
+echo -e "\e[0m"
+sleep 2
 
 # Variable
 SOURCE=BonusBlock-chain
