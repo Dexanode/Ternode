@@ -24,7 +24,7 @@
 
 # Automatic Install Node Guide
 
-wget -O bonusbx.sh https://<raw class="github"></raw>usercontent.com/ternode/tree/main/bonusblock/bonus.sh && chmod +x bonus.sh && ./bonus.sh
+wget -O bonus.sh https://<raw class="github"></raw>usercontent.com/ternode/tree/main/bonusblock/bonus.sh && chmod +x bonus.sh && ./bonus.sh
 
 ## Snapshoot
 
