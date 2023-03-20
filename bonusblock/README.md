@@ -55,7 +55,6 @@ bonus-blockd keys list
 ```
 
 
-```bash
 
 ### Create validator
 After your node is synced, create validator
@@ -65,7 +64,6 @@ To check if your node is synced simply run
 
 Creating validator with `1 bonus` change the value as you like
 
-```
 ```bash
 bonus-blockd tx staking create-validator \
   --amount 100000ubonus \
