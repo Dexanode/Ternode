@@ -146,6 +146,10 @@ nano /etc/systemd/system/celestia-lightd.service
 --metrics.tls=false --metrics --metrics.endpoint otel.celestia.tools:4318
 ```
 
+Pastekan Command Di atas di samping blockspacerace, lihat gambar di bawah
+
+![Bundlr](https://user-images.githubusercontent.com/65535542/228909380-f6303c5e-5319-4aa7-9f78-730807584c49.png)
+
 ## Reload and Restart Your Node
 
 ```bash
