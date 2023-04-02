@@ -187,6 +187,17 @@ curl -X GET http://127.0.0.1:26658/balance
 curl -X GET http://127.0.0.1:26658/header/1
 ```
 
+## If you get error message `header: not found` after restart nodes you can try below 
+
+
+```bash
+sudo systemctl stop celestia-lightd
+rm -rf $HOME/.celestia-light-blockspacerace-0/data
+celestia light init --p2p.network blockspacerace
+sudo systemctl start celestia-lightd
+sudo journalctl -fu celestia-lightd -o cat
+```
+
 # Delete Node
 ```bash
 systemctl stop celestia-lightd
