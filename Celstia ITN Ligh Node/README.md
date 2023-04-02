@@ -33,12 +33,15 @@ sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential gi
 # Install Golang
 
 ```bash
-ver="1.19.1" 
-cd $HOME 
-wget "https://golang.org/dl/go$ver.darwin-amd64.tar.gz" 
-sudo rm -rf /usr/local/go 
-sudo tar -C /usr/local -xzf "go$ver.darwin-amd64.tar.gz" 
-rm "go$ver.darwin-amd64.tar.gz"
+ver="1.18.2"
+cd $HOME
+wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
+sudo rm -rf /usr/local/go
+sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
+rm "go$ver.linux-amd64.tar.gz"
+echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
+source $HOME/.bash_profile
+go version
 ```
 
 # Set Bash Profile
@@ -59,14 +62,12 @@ go version go1.19.4 linux/amd64
 # Install Celestia Blockspace Race
 
 ```bash
-cd $HOME 
-rm -rf celestia-node 
-git clone https://github.com/celestiaorg/celestia-node.git 
-cd celestia-node/ 
-git checkout tags/v0.8.0 
-make build 
-make install 
-make cel-key
+cd $HOME
+rm -rf celestia-node
+git clone https://github.com/celestiaorg/celestia-node.git
+cd celestia-node
+git checkout tags/v0.3.0-rc2
+make install
 ```
 
 # Check Celestia Version
@@ -78,8 +79,7 @@ celestia version
 # Inittialize Light Node
 
 ```bash
-celestia light init --p2p.network blockspacerace
-
+celestia light init
 ```
 
 # Save Mnemonic sama addressnya, terus ambil faucet di discordnya Celestia pake command $request walletklean
