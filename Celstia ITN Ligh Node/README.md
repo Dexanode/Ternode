@@ -22,7 +22,7 @@
 - At least 156 Kbps for Download/56 Kbps for Upload network bandwidth
 
 
-# Update Package
+## Update Package
 
 ```bash
 sudo apt update && sudo apt upgrade -y
@@ -30,7 +30,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential git make ncdu -y
 ```
 
-# Install Golang
+## Install Golang
 
 ```bash
 sudo rm -rf /usr/local/go
@@ -39,7 +39,7 @@ eval $(echo 'export PATH=$PATH:/usr/local/go/bin' | sudo tee /etc/profile.d/gola
 eval $(echo 'export PATH=$PATH:$HOME/go/bin' | tee -a $HOME/.profile)
 ```
 
-# Set Bash Profile
+## Set Bash Profile
 
 ```bash
 echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
@@ -48,13 +48,13 @@ source $HOME/.bash_profile
 
 ```
 
-# Check Go Version
+## Check Go Version
 
 ```bash
 go version go1.19.4 linux/amd64
 ```
 
-# Install Celestia Blockspace Race
+## Install Celestia Blockspace Race
 
 ```bash
 cd $HOME
@@ -67,25 +67,25 @@ make install
 make cel-key
 ```
 
-# Check Celestia Version
+## Check Celestia Version
 
 ```bash
 celestia version
 ```
 
-# Inittialize Light Node
+## Inittialize Light Node
 
 ```bash
 celestia light init
 ```
 
-# Save Mnemonic sama addressnya, terus ambil faucet di discordnya Celestia pake command $request walletklean
+## Save Mnemonic sama addressnya, terus ambil faucet di discordnya Celestia pake command $request walletklean
 
 ```bash
 ./cel-key list --node.type light --p2p.network blockspacerace
 ```
 
-# Create Services 
+## Create Services 
 
 ```bash
 sudo tee <<EOF >/dev/null /etc/systemd/system/celestia-lightd.service
@@ -105,21 +105,21 @@ WantedBy=multi-user.target
 EOF
 ```
 
-# Start Services Celestia
+## Start Services Celestia
 
 ```bash
 systemctl enable celestia-lightd
 systemctl start celestia-lightd
 ```
 
-# Check Logs
+## Check Logs
 
 ```bash
 journalctl -u celestia-lightd.service -f
 ```
 
 
-# Ambil Node ID buat di submit di task
+## Ambil Node ID buat di submit di task
 
 ```bash
 curl -X POST \
@@ -127,7 +127,7 @@ curl -X POST \
      -H 'Content-Type: application/json' \
      -d '{"jsonrpc":"2.0","id":0,"method":"p2p.Info","params":[]}' \
      http://localhost:26658
-     ```
+```
 
 # Input Metric Flags on Node
 
@@ -198,7 +198,7 @@ sudo systemctl start celestia-lightd
 sudo journalctl -fu celestia-lightd -o cat
 ```
 
-# Delete Node
+## Delete Node
 ```bash
 systemctl stop celestia-lightd
 rm -rf /etc/systemd/system/celestia-lightd.service
