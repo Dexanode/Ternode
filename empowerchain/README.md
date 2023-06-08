@@ -23,8 +23,14 @@
 # Public Endpoint
 
 API: 
+
 RPC: 
+
 GRPC: 
+
+# PORT
+
+USE PORT = 12
 
 ## Minimum Requirements 
 - 4 or more physical CPU cores
