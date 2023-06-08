@@ -35,17 +35,6 @@ GRPC:
 ## Update Package
 
 # Manual Install Node Guide
-
-### Set vars and port
-```
-MONIKER=<NAME_MONIKER>
-```
-Change `NAME_MONIKER` to your moniker
-```
-echo export MONIKER=${MONIKER} >> $HOME/.bash_profile
-source ~/.bash_profile
-```
-
 ### Update Packages and Depencies
 
 ```
@@ -88,8 +77,10 @@ empowerd version # 1.0.0-rc1
 ```bash
 empowerd config keyring-backend test
 empowerd config chain-id circulus-1
-empowerd init "$NODE_MONIKER" --chain-id circulus-1
+empowerd init "MONIKER" --chain-id circulus-1
 ```
+change "MONIKER" to your MONIKER (Name Validator)
+
 
 ### Genenis
 
