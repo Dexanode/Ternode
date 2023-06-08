@@ -22,11 +22,11 @@
 
 # Public Endpoint
 
-API: 
+API: https://api-empower.dexanode.site
 
-RPC: 
+RPC: https://rpc-empower.dexanode.site
 
-GRPC: 
+GRPC: https://grpc-empower.dexanode.site
 
 # PORT
 
