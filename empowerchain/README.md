@@ -204,7 +204,7 @@ After your node is synced, create validator
 empowerd tx staking create-validator \
 --amount=10000000umpwr \
 --pubkey=$(empowerd tendermint show-validator) \
---moniker="$NODE_MONIKER" \
+--moniker="MONIKER" \
 --website="CHANGE_TO_YOUR_WEBSITE" \
 --identity="KEYBASE" \
 --details="YOUR_DETAILS"\
