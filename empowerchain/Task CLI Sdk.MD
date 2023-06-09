@@ -27,7 +27,7 @@ empowerd tx bank multi-send wallet wallet-1 wallet-2 1000umpwr --from wallet --c
 empowerd tx staking delegate YOUR_TO_VALOPER_ADDRESS 1000000umpwr --from wallet --chain-id circulus-1 --gas-prices 0.1umpwr --gas-adjustment 1.5 --gas auto -y
 ```
 
-## empowerx tx staking redelegate**
+## empowerx tx staking redelegate
 ```
 empowerd tx staking redelegate $(empowerd keys show wallet --bech val -a) YOUR_TO_VALOPER_ADDRESS 1000000umpwr --from wallet --chain-id circulus-1 --gas-prices 0.1umpwr --gas-adjustment 1.5 --gas auto -y
 ```
