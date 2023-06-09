@@ -1,6 +1,6 @@
 # Guide For Task CLI Testing Empower Incentiviced Testnet
 
-###Before doing the task must run validator first
+### Before doing the task must run validator first
 
 Explorer For Check HASH and your TX : https://empowerchain.exploreme.pro/
 
