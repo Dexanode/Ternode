@@ -1,12 +1,11 @@
 # Guide For Task CLI Testing
 
 before doing the task must run validator first
-TASK CLI Sdk
 
-Task CLI: Sdk transaction
-
-**empowerx tx authz grant**
-```empowerd tx authz grant new_wallet send --spend-limit=1000umpwr --from wallet_validator -y```
+## empowerx tx authz grant
+```
+empowerd tx authz grant new_wallet send --spend-limit=1000umpwr --from wallet_validator -y
+```
 
 **empowerx tx authz revoke**
 ```empowerd tx authz revoke new_wallet /cosmos.bank.v1beta1.MsgSend --from wallet_validator
