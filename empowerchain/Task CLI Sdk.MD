@@ -34,7 +34,8 @@ empowerd tx staking redelegate $(empowerd keys show wallet --bech val -a) YOUR_T
 
 
 ## empowerx tx staking unbond
-``` empowerd tx staking unbond $(empowerd keys show wallet --bech val -a) 1000000umpwr --from wallet --chain-id circulus-1 --gas-prices 0.1umpwr --gas-adjustment 1.5 --gas auto -y
+``` 
+empowerd tx staking unbond $(empowerd keys show wallet --bech val -a) 1000000umpwr --from wallet --chain-id circulus-1 --gas-prices 0.1umpwr --gas-adjustment 1.5 --gas auto -y
 ```
 
 ## empowerx tx cancel-unbound
