@@ -2,6 +2,8 @@
 
 before doing the task must run validator first
 
+Explorer For Check HASH and your TX : https://empowerchain.exploreme.pro/
+
 ## empowerx tx authz grant
 ```
 empowerd tx authz grant new_wallet send --spend-limit=1000umpwr --from wallet_validator -y
