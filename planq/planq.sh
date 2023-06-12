@@ -30,7 +30,7 @@ PORT=102
 
 # Set Vars
 if [ ! $NODENAME ]; then
-	read -p "\e[1m\e[1;33m[Enter Moniker Name] :\e[0m " NODENAME
+	read -p "Enter Moniker Name :\e[0m " NODENAME
 	echo 'export NODENAME='$NODENAME >> $HOME/.bash_profile
 fi
 
