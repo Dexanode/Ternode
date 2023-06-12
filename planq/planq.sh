@@ -2,7 +2,7 @@
 #
 #
 
-echo -e "\033[0;33m"
+echo -e "\033[1;33m"
 echo " ██████  ███████ ██   ██  █████  ███    ██  ██████  ██████  ███████ ";
 echo " ██   ██ ██       ██ ██  ██   ██ ████   ██ ██    ██ ██   ██ ██      ";
 echo " ██   ██ █████     ███   ███████ ██ ██  ██ ██    ██ ██   ██ █████   ";
@@ -36,15 +36,15 @@ fi
 
 echo "Verify the information below before proceeding with the installation!"
 echo ""
-echo -e "NODE NAME      : \e[1m\e[33m$NODENAME\e[0m"
-echo -e "WALLET NAME    : \e[1m\e[33m$WALLET\e[0m"
-echo -e "CHAIN NAME     : \e[1m\e[33m$CHAIN\e[0m"
-echo -e "NODE VERSION   : \e[1m\e[33m$VERSION\e[0m"
-echo -e "NODE FOLDER    : \e[1m\e[33m$FOLDER\e[0m"
-echo -e "NODE DENOM     : \e[1m\e[33m$DENOM\e[0m"
-echo -e "NODE ENGINE    : \e[1m\e[33m$COSMOVISOR\e[0m"
-echo -e "SOURCE CODE    : \e[1m\e[33m$SOURCE\e[0m"
-echo -e "NODE PORT      : \e[1m\e[33m$PORT\e[0m"
+echo -e "NODE NAME      : \e[1m\e[1;33m$NODENAME\e[0m"
+echo -e "WALLET NAME    : \e[1m\e[1;33m$WALLET\e[0m"
+echo -e "CHAIN NAME     : \e[1m\e[1;33m$CHAIN\e[0m"
+echo -e "NODE VERSION   : \e[1m\e[1;33m$VERSION\e[0m"
+echo -e "NODE FOLDER    : \e[1m\e[1;33m$FOLDER\e[0m"
+echo -e "NODE DENOM     : \e[1m\e[1;33m$DENOM\e[0m"
+echo -e "NODE ENGINE    : \e[1m\e[1;33m$COSMOVISOR\e[0m"
+echo -e "SOURCE CODE    : \e[1m\e[1;33m$SOURCE\e[0m"
+echo -e "NODE PORT      : \e[1m\e[1;33m$PORT\e[0m"
 echo ""
 
 read -p "Is the above information correct? (y/n) " choice
@@ -167,12 +167,12 @@ sudo systemctl daemon-reload
 sudo systemctl enable $BINARY
 sudo systemctl start $BINARY
 
-echo -e "\033[0;33m-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*\033[0m"
-echo -e "\033[0;33mCONGRATS! SETUP FINISHED\033[0m"
+echo -e "\033[0;1;33m-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*\033[0m"
+echo -e "\033[0;1;33mCONGRATS! SETUP FINISHED\033[0m"
 echo ""
-echo -e "CHECK STATUS BINARY : \033[1m\033[34msystemctl status $BINARY\033[0m"
-echo -e "CHECK RUNNING LOGS : \033[1m\033[34mjournalctl -fu $BINARY -o cat\033[0m"
-echo -e "CHECK LOCAL STATUS : \033[1m\033[34mcurl -s localhost:${PORT}57/status | jq .result.sync_info\033[0m"
+echo -e "CHECK STATUS BINARY : \033[1m\1;33m[34msystemctl status $BINARY\033[0m"
+echo -e "CHECK RUNNING LOGS : \033[1m\1;33m[34mjournalctl -fu $BINARY -o cat\033[0m"
+echo -e "CHECK LOCAL STATUS : \033[1m\1;33m[34mcurl -s localhost:${PORT}57/status | jq .result.sync_info\033[0m"
 echo -e "\033[0;35m-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*\033[0m"
 
 # End
