@@ -30,7 +30,7 @@ PORT=102
 
 # Set Vars
 if [ ! $NODENAME ]; then
-	read -p "[ENTER YOUR NODE] > " NODENAME
+	read -p "\e[1m\e[1;33m[ENTER YOUR NODE] :\e[0m " NODENAME
 	echo 'export NODENAME='$NODENAME >> $HOME/.bash_profile
 fi
 
