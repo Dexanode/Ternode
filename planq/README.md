@@ -25,6 +25,11 @@
 
 ## Update Package
 
+# Automatic Installation
+```
+sdsds
+```
+
 # Manual Install Node Guide
 
 ### Set vars and port
