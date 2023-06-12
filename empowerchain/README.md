@@ -38,6 +38,11 @@ USE PORT = 12
 - At least 16GB of memory (RAM)
 - At least 120mbps network bandwidth
 
+# Automatic Install 
+
+```
+wget -O empower.sh https://raw.githubusercontent.com/Dexanode/Ternode/main/empowerchain/empower.sh && chmod +x empower.sh && ./empower.sh
+```
 
 # Manual Install Node Guide
 
@@ -292,7 +297,7 @@ empowerd query bank balances <address>
 
 Transfer funds
 ```
-empowerd tx bank send <FROM ADDRESS> <TO_planq_WALLET_ADDRESS> 10000000aplanq
+empowerd tx bank send <FROM ADDRESS> <TO_empower_WALLET_ADDRESS> 100000umpwr
 ```
 
 ### Voting
