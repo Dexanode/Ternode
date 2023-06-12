@@ -169,9 +169,9 @@ sudo systemctl start $BINARY
 echo -e "\033[0;33m-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*\033[0m"
 echo -e "\033[0;33mFINISH\033[0m"
 echo ""
-echo -e "Check Binary Status : \033[1m\1;33m[34msystemctl status $BINARY\033[0m"
-echo -e "Check Logs : \033[1m\1;33m[34mjournalctl -fu $BINARY -o cat\033[0m"
-echo -e "CHECK Sync Info : \033[1m\1;33m[34mcurl -s localhost:${PORT}57/status | jq .result.sync_info\033[0m"
+echo -e "Check Binary Status 	 : \033[1m\0;33m[34msystemctl status $BINARY\033[0m"
+echo -e "Check Logs		 : \033[1m\0;33m[34mjournalctl -fu $BINARY -o cat\033[0m"
+echo -e "CHECK Sync Info	 : \033[1m\0;33m[34mcurl -s localhost:${PORT}57/status | jq .result.sync_info\033[0m"
 echo -e "\033[0;33m-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*\033[0m"
 
 # End
