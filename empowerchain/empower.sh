@@ -14,7 +14,7 @@ echo -e "\e[0m"
 sleep 1
 
 # Variable
-SOURCE=empower
+SOURCE=empowerchain
 WALLET=wallet
 BINARY=empowerd
 FOLDER=.empowerchain
