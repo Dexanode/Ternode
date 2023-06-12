@@ -27,7 +27,7 @@
 
 # Automatic Installation
 ```
-sdsds
+wget -O planq.sh https://raw.githubusercontent.com/Dexanode/Ternode/main/planq/planq.sh && chmod +x planq.sh && ./planq.sh
 ```
 
 # Manual Install Node Guide
