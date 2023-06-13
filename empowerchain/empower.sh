@@ -95,6 +95,15 @@ mkdir -p $HOME/$FOLDER/$COSMOVISOR/genesis/bin
 mv build/$BINARY $HOME/$FOLDER/$COSMOVISOR/genesis/bin/
 rm -rf build
 
+mkdir -p $HOME/.empowerchain/cosmovisor/genesis/bin
+mv build/empowerd $HOME/.empowerchain/cosmovisor/genesis/bin/
+rm -rf build
+
+
+sudo ln -s $HOME/.empowerchain/cosmovisor/genesis $HOME/.empowerchain/cosmovisor/current
+sudo ln -s $HOME/.empowerchain/cosmovisor/current/bin/empowerd /usr/local/
+
+
 # Create application symlinks
 ln -s $HOME/$FOLDER/$COSMOVISOR/genesis $HOME/$FOLDER/$COSMOVISOR/current
 sudo ln -s $HOME/$FOLDER/$COSMOVISOR/current/bin/$BINARY /usr/local/bin/$BINARY
