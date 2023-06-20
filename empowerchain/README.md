@@ -83,9 +83,9 @@ cd || return
 rm -rf empowerchain
 git clone https://github.com/EmpowerPlastic/empowerchain
 cd empowerchain/chain || return
-git checkout v1.0.0-rc1
+git checkout v1.0.0-rc3
 make install
-empowerd version # 1.0.0-rc1
+empowerd version # 1.0.0-rc3
 ```
 
 ### Initialize
@@ -98,7 +98,7 @@ empowerd init "MONIKER" --chain-id circulus-1
 change "MONIKER" to your MONIKER (Name Validator)
 
 
-### Genenis
+### Genesis
 
 ```bash
 curl -s https://raw.githubusercontent.com/EmpowerPlastic/empowerchain/main/testnets/circulus-1/genesis.json > $HOME/.empowerchain/config/genesis.json
